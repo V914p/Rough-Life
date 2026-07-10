@@ -1,10 +1,11 @@
 ﻿---
-title: "Blog 3 - GameLift server fleet with sidecars and state storage"
+title: 'Blog 3 - GameLift server fleet with sidecars and state storage'
 date: 2026-06-30
 weight: 3
 chapter: false
-pre: " <b> 3.3. </b> "
+pre: ' <b> 3.3. </b> '
 ---
+
 {{% notice warning %}}
 **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
 {{% /notice %}}
@@ -15,7 +16,7 @@ Facebook source: [AWS Study Group Facebook permalink 2196945564403737](https://w
 
 Original AWS blog: [Faster multiplayer hosting with containers on Amazon GameLift Servers](https://aws.amazon.com/blogs/gametech/faster-multiplayer-hosting-with-containers-on-amazon-gamelift-servers/)
 
-![GameLift fleet with sidecar architecture](/images/3-blogstranslated/731883848_1804734080507600_5742217141909987603_n.jpg)
+![GameLift fleet with sidecar architecture](/images/3-blogstranslated/blog3.jpg)
 
 ## Overview
 
@@ -42,4 +43,3 @@ A sidecar process helps keep the game server focused on simulation and networkin
 ## Application to RoughLife
 
 For RoughLife, this pattern is useful because survival games often need persistent world state, match result records, and player progression. The game server can focus on authoritative gameplay while a sidecar or backend integration handles save and storage tasks. This supports a cleaner separation between real-time gameplay and long-term persistence.
-

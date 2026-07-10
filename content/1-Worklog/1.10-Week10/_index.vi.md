@@ -1,13 +1,10 @@
 ---
 title: "Worklog Tuần 10"
-date: 2024-06-27
-weight: 10
+date: 2026-06-27
+weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 10:
@@ -31,7 +28,3 @@ Thiết kế UI, viết logic cho player: thanh máu, ô hiện vũ khí hiện 
 - Kiểm tra, chỉnh sửa và tối ưu giao diện để tăng tính thẩm mỹ và dễ sử dụng.
 
 
-### Công việc vẽ sơ đồ kiến trúc
-
-- Vẽ và chỉnh sửa sơ đồ kiến trúc dự án bằng app.diagrams.net.
-- Sắp xếp các AWS services, luồng Unity client, backend components và luồng kết nối multiplayer trong sơ đồ.

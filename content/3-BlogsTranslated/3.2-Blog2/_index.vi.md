@@ -1,10 +1,11 @@
 ﻿---
-title: "Blog 2 - GameLift game sessions và CloudWatch logs"
+title: 'Blog 2 - GameLift game sessions và CloudWatch logs'
 date: 2026-06-30
 weight: 2
 chapter: false
-pre: " <b> 3.2. </b> "
+pre: ' <b> 3.2. </b> '
 ---
+
 {{% notice warning %}}
 **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
@@ -15,13 +16,13 @@ Link Facebook: [AWS Study Group Facebook permalink 2198027240962236](https://www
 
 Link blog gốc AWS: [Host persistent world games on Amazon GameLift Servers](https://aws.amazon.com/blogs/gametech/host-persistent-world-games-on-amazon-gamelift-servers/)
 
-![Active GameLift game session](/images/3-blogstranslated/731787736_1803852380595770_7260352658525805355_n.jpg)
+![Active GameLift game session](/images/3-blogstranslated/blog2 (1).jpg)
 
-![Hộp thoại terminate game session](/images/3-blogstranslated/733756954_1803852333929108_7167563714267557677_n.jpg)
+![Hộp thoại terminate game session](/images/3-blogstranslated/blog2 (2).jpg)
 
-![CloudWatch GameLift log group](/images/3-blogstranslated/731787739_1803852490595759_4367995617558889048_n.jpg)
+![CloudWatch GameLift log group](/images/3-blogstranslated/blog2 (3).jpg)
 
-![CloudWatch log streams](/images/3-blogstranslated/731761336_1803852443929097_2885424837124105651_n.jpg)
+![CloudWatch log streams](/images/3-blogstranslated/blog2 (4).jpg)
 
 ## Tổng quan
 
@@ -49,4 +50,3 @@ GameLift có thể publish server logs lên Amazon CloudWatch. Developer có th�
 ## Áp dụng cho RoughLife
 
 Với RoughLife, các bước này nên nằm trong checklist test. Mỗi server build cần được kiểm tra bằng cách tạo game session, kết nối Unity client, xem logs và shutdown session bình thường. Cách này giảm rủi ro trước khi thêm gameplay logic phức tạp hơn.
-

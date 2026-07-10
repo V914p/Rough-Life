@@ -7,7 +7,7 @@ pre: ' <b> 1. </b> '
 ---
 
 {{% notice warning %}}
-**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
+⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
 {{% /notice %}}
 
 **On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
@@ -36,3 +36,4 @@ Typically, and as a standard, a worklog is carried out over about 3 months (thro
 
 **Week 11:** [Designing the Game Menu and Online Player Interface](1.11-week11/)
 
+**Week 12:** [Review the entire project and write the final report](1.12-week12/)

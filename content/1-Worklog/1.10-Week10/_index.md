@@ -1,14 +1,12 @@
 ---
 title: 'Week 10 Worklog'
-date: 2024-06-27
-weight: 10
+date: 2026-06-27
+weight: 2
 chapter: false
 pre: ' <b> 1.10. </b> '
 ---
 
-{{% notice warning %}}
-**Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 ### Week 10 Objectives:
 
@@ -29,8 +27,3 @@ Design the Player UI and implement the player-related logic, including the healt
 - Developed the weapon slot that displays the currently equipped or picked-up weapon.
 - Implemented the weapon information panel that appears when the player approaches a weapon.
 - Reviewed, refined, and optimized the UI to improve its visual quality and user experience.
-
-### Architecture Diagram Work
-
-- Drew and refined the project architecture diagram using app.diagrams.net.
-- Organized AWS services, Unity client flow, backend components, and multiplayer connection flow in the diagram.

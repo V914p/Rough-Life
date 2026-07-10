@@ -1,58 +1,49 @@
 ---
-title: "Events Participated"
+title: 'Events Participated'
 date: 2024-01-01
 weight: 4
 chapter: false
-pre: " <b> 4. </b> "
+pre: ' <b> 4. </b> '
 ---
 
-# Events Participated
+### [Event 1](4.1-Event1/)
 
-During my internship, I joined several AWS Study Group and FCAJ community events. These sessions helped me connect classroom learning with real industry practices: AI-assisted development, cloud delivery, security, DevOps automation, teamwork, and secure enterprise AI.
+&emsp;**Event Name:** AWS Study Group Workshop - AI in Development Lifecycle
 
-Each event gave me a different kind of value. Some sessions focused on mindset and learning habits, some went deep into technical architecture, and others helped me understand how engineers communicate ideas, build products, and grow inside the cloud community.
+&emsp;**Date & Time:** 09:00, May 9, 2026
 
-## Event List
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
-### Event 1: AWS Study Group Workshop - AI in Development
-
-&emsp;**Date:** May 9, 2026  
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-&emsp;**Role:** Attendee  
-
-A workshop about learning habits, prompt engineering, job readiness, and the role of AI across the software development lifecycle.
-
-[Open Event 1](4.1-Event1/)
+&emsp;**Role:** Attendee
 
 ---
 
-### Event 2: FCAJ Community Day - AI, CloudFront, LLM and Multi-Agent Systems
+### [Event 2](4.2-Event2/)
 
-&emsp;**Date:** May 23, 2026  
-&emsp;**Role:** Attendee  
+&emsp;**Event Name:** FCAJ Community Day
 
-A community sharing day with talks about second-brain systems, Amazon Q, CloudFront, hackathon product building, LLM fundamentals, and enterprise-grade multi-agent systems.
+&emsp;**Date & Time:** 09:00, May 23, 2026
 
-[Open Event 2](4.2-Event2/)
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
----
+&emsp;**Role:** Attendee
 
-### Event 3: FCAJ Community Day - Cloud, Security, DevOps and Teamwork
+### [Event 3](4.3-Event3/)
 
-&emsp;**Date:** June 2026  
-&emsp;**Role:** Attendee  
+&emsp;**Event Name:** FCAJ Community Day - AI Agents & DevOps Workshop
 
-A community sharing day about Docker, AWS WAF with machine learning, AWS WebSockets for multiplayer systems, teamwork, Amazon Neptune for GraphRAG, and the career path toward Cloud/DevOps.
+&emsp;**Date & Time:** 09:00, June 27, 2026
 
-[Open Event 3](4.3-Event3/)
+&emsp;**Location:** Online
 
----
+&emsp;**Role:** Attendee
 
-### Event 4: FCAJ Community Day - AI Agents and DevOps
+### [Event 4](4.4-Event4/)
 
-&emsp;**Date:** June 6, 2026  
-&emsp;**Role:** Attendee  
+&emsp;**Event Name:** AWS Cloud Career & AI Readiness
 
-A technical community day focused on AI agents, voice AI, Amazon Q, DevOps automation, secure MCP architecture, and practical career stories from cloud practitioners.
+&emsp;**Date & Time:** 09:00, July 4, 2026
 
-[Open Event 4](4.4-Event4/)
+&emsp;**Location:** Online
+
+&emsp;**Role:** Attendee

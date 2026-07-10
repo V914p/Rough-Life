@@ -1,120 +1,90 @@
 ---
-title: "FCAJ Community Day - AI Agents and DevOps"
-date: 2024-01-01
+title: 'Sự kiện 4'
+date: 2026-07-04
 weight: 4
 chapter: false
-pre: " <b> 4.4. </b> "
+pre: ' <b> 4.4. </b> '
 ---
 
-# FCAJ Community Day - AI Agents and DevOps
+## Báo cáo tóm tắt: “AWS Cloud Career & AI Readiness”
 
-## Thông tin sự kiện
+### Mục tiêu sự kiện
 
-**Tên sự kiện:** FCAJ Community Day - AI Agents and DevOps  
-**Thời gian:** 06/06/2026  
-**Vai trò:** Người tham dự
+- Tìm hiểu xu hướng nghề nghiệp trong lĩnh vực Cloud Computing.
+- Hiểu sự khác biệt giữa kiến thức ở trường và yêu cầu thực tế của doanh nghiệp.
+- Học cách sử dụng AI hiệu quả nhưng vẫn duy trì tư duy và kiến thức nền tảng.
+- Cải thiện kỹ năng giao tiếp, chủ động và phát triển bản thân.
 
-## Tổng quan
+### Diễn giả
 
-Sự kiện tập trung vào cách AI agents, Amazon Q, DevOps automation, voice AI và kiến trúc bảo mật cho doanh nghiệp đang thay đổi cách các cloud team làm việc. Các phần chia sẻ mang tính thực tế và có định hướng tương lai, từ agent-based operations đến secure MCP architecture để kết nối hệ thống AI với dữ liệu riêng tư của doanh nghiệp.
+Sự kiện có các diễn giả sau:
 
-So với một buổi technical talk thông thường, meetup này có phạm vi rộng hơn. Sự kiện kết hợp câu chuyện founder, demo sản phẩm, kiến trúc cloud, DevOps automation, thiết kế bảo mật và chia sẻ cộng đồng. Nhờ vậy, em thấy rõ hơn cách AI đang đi từ ý tưởng sang workflow thật trong các team và tổ chức.
+#### Nguyễn Gia Hưng – Head of Solutions Architecture tại AWS Việt Nam
 
-## Khai mạc và luồng sự kiện
+- Chia sẻ về sự phát triển của thị trường Cloud tại Việt Nam.
+- Phân tích yêu cầu tuyển dụng và những kỹ năng sinh viên cần chuẩn bị.
+- Khuyến khích sinh viên xây dựng dự án gắn với các bài toán thực tế của doanh nghiệp.
 
-Sự kiện bắt đầu bằng phần cập nhật cộng đồng và giới thiệu các chủ đề chính. Không khí rất sôi nổi vì nhiều phần có demo, ví dụ và câu chuyện từ những anh chị đang xây dựng sản phẩm thật. Điều này giúp các chủ đề nâng cao trở nên dễ theo dõi hơn.
+#### Bành Cẩm Vĩnh – Data Engineer tại Renova Cloud
 
-## Các phần chia sẻ chính
+- Trình bày sự khác biệt giữa học tập và làm việc thực tế.
+- Nhấn mạnh tầm quan trọng của cơ sở dữ liệu, lập trình và cấu trúc dữ liệu.
+- Chia sẻ cách xây dựng dự án gần với môi trường production.
 
-- **Steve Tran - AgenticOps for Your Cloud:** Chia sẻ cách agent-based systems hỗ trợ vận hành cloud và tự động hóa các tác vụ lặp lại.
-- **Voice AI Team - Building Voice Agents at Scale:** Trao đổi về cơ hội của voice AI, giới hạn hiện tại, xử lý noise, latency, quản lý ngữ cảnh và thách thức khi đưa vào production.
-- **Nguyen Nguyen và Chị Bảo - AWS DevOps Agent:** Giới thiệu cách AI-assisted DevOps hỗ trợ CI/CD, monitoring, incident response và infrastructure automation.
-- **Trường và Chị Anh - AI-Powered Productivity with Amazon Q:** Demo cách Amazon Q cải thiện tìm kiếm tri thức, hỗ trợ nội bộ, HR workflows và năng suất làm việc.
-- **Anh Toàn và Anh Nghi - Building Secure Private MCP for Amazon Q:** Giải thích cách MCP kết nối AI tools với private data sources nhưng vẫn đảm bảo security, access control và auditability.
-- **Các community technical talks:** Bao gồm Docker, AWS WAF kết hợp machine learning, AWS WebSockets cho multiplayer systems, teamwork, Amazon Neptune cho GraphRAG và lộ trình từ IT Helpdesk lên Cloud/DevOps.
+#### Như Trần – Account Manager tại AWS Việt Nam
 
-## Những điều học được
+- Chia sẻ cách nhận diện và vượt qua nỗi sợ.
+- Khuyến khích sinh viên chủ động giao tiếp và không ngại mắc lỗi.
+- Nhấn mạnh việc hiểu rõ điểm mạnh và phát triển phiên bản riêng của bản thân.
 
-### Kiến trúc AI agents
+#### Anh Khang – Cựu sinh viên Swinburne
 
-AI agents hữu ích khi trách nhiệm của chúng được định nghĩa rõ. Với tác vụ đơn giản, single-agent có thể đủ; còn workflow phức tạp cần nhiều vai trò thì multi-agent phù hợp hơn. Tuy nhiên, càng nhiều agent thì càng cần chú ý đến điều phối, đánh giá kết quả và chi phí.
+- Chia sẻ kinh nghiệm học tập và làm việc trong ngành Cloud.
+- Phân tích lợi ích và hạn chế của việc sử dụng AI trong học tập.
+- Khuyến khích sử dụng AI để hỗ trợ tư duy thay vì phụ thuộc hoàn toàn.
 
-### Công nghệ Voice AI
+### Nội dung nổi bật
 
-Voice AI có tiềm năng lớn cho customer support, assistant và sản phẩm tương tác, nhưng hệ thống production phải xử lý nhiều yếu tố thực tế. Noise, accent, latency, context switching và fallback scenario đều cần được thiết kế cẩn thận.
+#### 1. Xu hướng nghề nghiệp Cloud
 
-### AWS DevOps automation
+- Cloud Computing đang trở thành xu hướng quan trọng trong nhiều doanh nghiệp.
+- Sinh viên cần có kiến thức nền tảng, kỹ năng thực hành và hiểu biết về lĩnh vực ứng dụng.
 
-Chủ đề AWS DevOps Agent cho thấy DevOps đang dịch chuyển sang AI-assisted workflows. AI có thể giảm tác vụ lặp lại, hỗ trợ setup pipeline, monitoring và incident response. Điểm quan trọng không phải là loại bỏ con người, mà là giúp hoạt động vận hành nhanh hơn và nhất quán hơn.
+#### 2. Khoảng cách giữa trường học và doanh nghiệp
 
-### Amazon Q và năng suất làm việc
+- Dự án thực tế thường có dữ liệu phức tạp, yêu cầu thay đổi và thời gian thực hiện ngắn.
+- Sinh viên cần chú ý đến bảo mật, xử lý lỗi, chất lượng dữ liệu và khả năng vận hành hệ thống.
 
-Amazon Q có thể hữu ích cho cả technical team và non-technical team khi được kết nối với nguồn tri thức đáng tin cậy. Các ví dụ về HR và internal support cho thấy AI có thể giúp người dùng tìm câu trả lời nhanh hơn, nhưng vẫn cần kiểm soát quyền truy cập đúng cách.
+#### 3. Kỹ năng giao tiếp và phát triển bản thân
 
-### Enterprise AI an toàn
+- Cần chủ động đặt câu hỏi, chia sẻ ý kiến và không quá lo sợ bị đánh giá.
+- Việc thường xuyên thực hành sẽ giúp cải thiện sự tự tin và khả năng giao tiếp.
 
-Phần MCP là một trong những nội dung quan trọng nhất của sự kiện. Nó cho thấy enterprise AI không thể bỏ qua security. Dữ liệu riêng tư cần được bảo vệ, quyền truy cập phải được kiểm soát, và hành động của hệ thống cần được ghi log để audit. Điều này rất cần thiết khi AI tools kết nối với tài liệu, database hoặc API nội bộ.
+#### 4. Sử dụng AI hiệu quả
 
-## Cảm nhận cá nhân
+- AI giúp tăng tốc độ học tập và làm việc nhưng không thể thay thế kiến thức nền tảng.
+- Người sử dụng cần hiểu, kiểm tra và đánh giá lại kết quả do AI cung cấp.
 
-Đây là một trong những sự kiện truyền cảm hứng nhất em tham gia trong kỳ thực tập vì nó cho thấy AI đang nhanh chóng trở thành một phần của cloud workflow thực tế. Em đặc biệt quan tâm đến các phần Amazon Q và secure MCP vì chúng liên quan trực tiếp đến tương lai của enterprise AI adoption.
+### Tác động đối với kỳ thực tập của tôi
 
-Sự kiện cũng nhắc em rằng DevOps không chỉ là công cụ. DevOps là cách xây dựng hệ thống đáng tin cậy, giảm thao tác thủ công, cải thiện vòng phản hồi và giúp team deliver nhanh hơn nhưng vẫn kiểm soát được security và quality.
+- Hiểu rõ hơn về yêu cầu tuyển dụng trong ngành Cloud và công nghệ.
+- Nhận thức được tầm quan trọng của dự án thực tế và kiến thức nền tảng.
+- Biết cách sử dụng AI hợp lý trong quá trình học tập và phát triển dự án.
 
-## Ứng dụng thực tế
+### Hoạt động giao lưu cộng đồng
 
-- Tìm hiểu cách AI assistant hỗ trợ documentation và knowledge search trong các project thực tập.
-- Học cách DevOps automation cải thiện deployment, monitoring và xử lý sự cố.
-- Nghiên cứu thêm về MCP và các pattern tích hợp an toàn với private enterprise data.
-- Ôn lại các dịch vụ AWS liên quan đến VPC, IAM, logging và endpoints vì chúng quan trọng trong kiến trúc AI an toàn.
+- Giao lưu và đặt câu hỏi với các chuyên gia AWS và kỹ sư công nghệ.
+- Trao đổi kinh nghiệm học tập, thực tập và định hướng nghề nghiệp.
+- Mở rộng mối quan hệ với sinh viên và thành viên cộng đồng Cloud.
 
-## Bài học phát triển nghề nghiệp
+### Kế hoạch phát triển trong tương lai
 
-- Cloud engineers sẽ ngày càng cần hiểu AI-assisted workflows.
-- Kỹ năng DevOps vẫn quan trọng, nhưng automation và AI sẽ thay đổi cách vận hành hằng ngày.
-- Security và governance là yếu tố bắt buộc khi AI systems kết nối với dữ liệu riêng tư.
-- Giao tiếp và teamwork vẫn rất cần thiết vì hệ thống phức tạp đòi hỏi sự phối hợp rõ ràng.
-
-## Khoảnh khắc đáng nhớ
-
-- Các câu chuyện từ founder và practitioner về xây dựng sản phẩm AI và cloud.
-- Demo trực tiếp cho thấy AI hỗ trợ workflow vận hành thực tế.
-- Phần giải thích secure MCP architecture, kết nối năng lực AI với bảo mật doanh nghiệp.
-- Các community technical talks mở ra nhiều hướng project và nghề nghiệp.
-- Không khí trao đổi cởi mở giữa người học, diễn giả và các anh chị trong ngành.
-
-## Đánh giá tổng quan
-
-**5/5** - Sự kiện rất giá trị vì kết hợp được các chủ đề AI nâng cao, DevOps automation, kiến trúc bảo mật và định hướng nghề nghiệp trong một buổi community day.
-
-## Hình ảnh sự kiện
-
-![Hình ảnh Event 4 - 1](/images/4-EventParticipated/event4/1783681915336_488790801746558625_6340294277924690580_ecd951e61753c20fb2d75d8e4b7bc081.jpg)
-
-![Hình ảnh Event 4 - 2](/images/4-EventParticipated/event4/1783683292382_488790801746558625_6340294277924690580_b085288870388ce5f8f093b64ffddd39.jpg)
-
-![Hình ảnh Event 4 - 3](/images/4-EventParticipated/event4/1783683292734_488790801746558625_6340294277924690580_b8024e41e18a1930c32b12284c850674.jpg)
-
-![Hình ảnh Event 4 - 4](/images/4-EventParticipated/event4/1783683293134_488790801746558625_6340294277924690580_f19ed53f9c8223dafd95a7df9929aa47.jpg)
-
-![Hình ảnh Event 4 - 5](/images/4-EventParticipated/event4/1783683293477_488790801746558625_6340294277924690580_39cccb21e0243f16669912c53ac64a57.jpg)
-
-![Hình ảnh Event 4 - 6](/images/4-EventParticipated/event4/1783683293603_488790801746558625_6340294277924690580_3541e2be7b5085a140039c4c250a019a.jpg)
-
-![Hình ảnh Event 4 - 7](/images/4-EventParticipated/event4/1783683293770_488790801746558625_6340294277924690580_914653815898ed163290131b5e63c7b8.jpg)
-
-![Hình ảnh Event 4 - 8](/images/4-EventParticipated/event4/1783683294089_488790801746558625_6340294277924690580_e4c28e44900216d8db29e1d25d9a63ac.jpg)
-
-![Hình ảnh Event 4 - 9](/images/4-EventParticipated/event4/1783683294186_488790801746558625_6340294277924690580_0e7ac1a26b00126fa720917fb537fc88.jpg)
-
-![Hình ảnh Event 4 - 10](/images/4-EventParticipated/event4/1783683294298_488790801746558625_6340294277924690580_235122dbfebd9da73e520bae6a4f6714.jpg)
-
-![Hình ảnh Event 4 - 11](/images/4-EventParticipated/event4/1783683294404_488790801746558625_6340294277924690580_438c787acad027cc342fb0999230f62d.jpg)
-
-![Hình ảnh Event 4 - 12](/images/4-EventParticipated/event4/1783683294510_488790801746558625_6340294277924690580_d208297258fb9dff618e190635947012.jpg)
-
-![Hình ảnh Event 4 - 13](/images/4-EventParticipated/event4/1783683294595_488790801746558625_6340294277924690580_25623c021e84baa413376729d455f0ab.jpg)
-
-![Hình ảnh Event 4 - 14](/images/4-EventParticipated/event4/1783683294727_488790801746558625_6340294277924690580_c7d897fc37e1ee3bb5faec7b146b8505.jpg)
-
-![Hình ảnh Event 4 - 15](/images/4-EventParticipated/event4/1783683294813_488790801746558625_6340294277924690580_03135cbf1b742c281e0563f64757e4e5.jpg)
+- Tiếp tục học tập và thực hành các dịch vụ AWS.
+- Xây dựng dự án có khả năng vận hành gần với môi trường thực tế.
+- Cải thiện kỹ năng giao tiếp, làm việc nhóm và thuyết trình.
+- Sử dụng AI như một công cụ hỗ trợ thay vì phụ thuộc hoàn toàn.
+  ![overview](/images/4-Event/event4.jpg)
+  ![overview](/images/4-Event/event4.1.jpg)
+  ![overview](/images/4-Event/event4.2.jpg)
+  ![overview](/images/4-Event/event4.3.jpg)
+  ![overview](/images/4-Event/event4.4.jpg)

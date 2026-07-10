@@ -1,10 +1,11 @@
 ﻿---
-title: "Blog 1 - GameLift FlexMatch serverless matchmaking"
+title: 'Blog 1 - GameLift FlexMatch serverless matchmaking'
 date: 2026-06-21
 weight: 1
 chapter: false
-pre: " <b> 3.1. </b> "
+pre: ' <b> 3.1. </b> '
 ---
+
 {{% notice warning %}}
 **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
 {{% /notice %}}
@@ -15,7 +16,7 @@ Facebook source: [AWS Study Group Facebook permalink 2191111528320474](https://w
 
 Original AWS blog: [Online Multiplayer with Amazon GameLift and AWS serverless](https://aws.amazon.com/blogs/gametech/online-multiplayer-amazon-gamelift-aws-serverless/)
 
-![Serverless matchmaking architecture](/images/3-blogstranslated/727466501_1798896974424644_7417817182196219607_n.jpg)
+![Serverless matchmaking architecture](/images/3-blogstranslated/blog1.jpg)
 
 ## Overview
 
@@ -49,4 +50,3 @@ For RoughLife, this pattern is useful because matchmaking is not part of the UDP
 ## Translated summary
 
 A good multiplayer backend should authenticate players, track player state, create matchmaking tickets, process match results, and return enough information for the client to join the correct session. Using serverless services reduces operational work and makes the matchmaking layer easier to evolve as the game grows.
-

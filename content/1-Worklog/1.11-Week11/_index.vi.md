@@ -1,27 +1,23 @@
 ---
 title: 'Worklog Tuần 11'
-date: 2024-07-04
-weight: 11
+date: 2026-07-04
+weight: 2
 chapter: false
 pre: ' <b> 1.11. </b> '
 ---
 
-{{% notice warning %}}
-**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, kể cả warning này.
-{{% /notice %}}
-
 ### Mục tiêu tuần 11:
 
 - Thiết kế UI(menu, enter room)
--Xử lý onlline: (thanh máu, ô chứa vũ khí, ô chi tiết vũ khí)
+  -Xử lý onlline: (thanh máu, ô chứa vũ khí, ô chi tiết vũ khí)
 
 ### Các công việc cần triển khai trong tuần này:
 
 | Thứ       | Công việc                                                                                                                                                                       | Ngày bắt đầu | Ngày hoàn thành | Trạng thái |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2 , 3 , 4 | - Thiết kế menu(Nút onlline, Offline, Setting, Exit) <br> - Tìm kiếm tài nguyên để thiết kế UI<br> - Tìm kiếm và thiết kế nhạc cho các màn                                      | 29/06/2026   | 01/07/2026      | Hoàn thành     |
-| 5 , 6     | Viết code thực hiện logic cho onlline gồm: <br>&emsp; + Thanh máu nhân vật <br>&emsp; + ô để khi nhặt vũ khí thì hiện lên <br> &emsp; + Ô chi tiết vũ khí khi nhân vật chạm vào | 02/07/2026   | 03/07/2026      | Hoàn thành     |
-| 7         | - Tham gia event của aws <br> - Thiết kế UI cho Enter Room                                                                                                                      | 04/07/2026   | 04/07/2026      | Hoàn Thành     |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ---------- |
+| 2 , 3 , 4 | - Thiết kế menu(Nút onlline, Offline, Setting, Exit) <br> - Tìm kiếm tài nguyên để thiết kế UI<br> - Tìm kiếm và thiết kế nhạc cho các màn                                      | 29/06/2026   | 01/07/2026      | Hoàn thành |
+| 5 , 6     | Viết code thực hiện logic cho onlline gồm: <br>&emsp; + Thanh máu nhân vật <br>&emsp; + ô để khi nhặt vũ khí thì hiện lên <br> &emsp; + Ô chi tiết vũ khí khi nhân vật chạm vào | 02/07/2026   | 03/07/2026      | Hoàn thành |
+| 7         | - Tham gia event của aws <br> - Thiết kế UI cho Enter Room                                                                                                                      | 04/07/2026   | 04/07/2026      | Hoàn Thành |
 
 ### Kết quả đạt được tuần 11:
 

@@ -1,77 +1,38 @@
 ---
-title: "Self-Assessment"
-date: 2026-07-06
+title: 'Self-Assessment'
+date: 2024-01-01
 weight: 6
 chapter: false
-pre: " <b> 6. </b> "
+pre: ' <b> 6. </b> '
 ---
 
-# Self-Assessment
+During my internship at AWS Company from April 17, 2026 to July 10, 2026, I had the opportunity to learn, practice, and apply the knowledge I gained at university in a real working environment.
 
-During my internship at **Amazon Web Services Viet Nam Company Limited** in the **Workforce Bootcamp - First Cloud AI Journey** program, from **20/04/2026 to 12/07/2026**, I had the opportunity to learn, practice, and apply both university knowledge and new cloud concepts in a practical environment.
+I participated in an action-adventure game project featuring boss battles with both online and offline modes. My primary responsibilities focused on developing the game's user interface, including implementing basic UI elements such as the health bar, inventory slots, and weapon information display, as well as designing scenes such as the Main Menu and Lobby Scene. Through this project, I improved my game programming skills, code analysis abilities, UI design and implementation skills, and the ability to develop UI logic. In addition, through the AWS training program, I gained practical experience with core AWS services such as AWS Billing and Cost Management, Amazon CloudWatch, Amazon EC2, Amazon RDS, AWS Support, and monitoring tools. These activities helped me better understand cloud computing concepts and how AWS services are applied in real-world scenarios. I also enhanced my communication, teamwork, problem-solving, and technical report writing skills.
 
-Throughout the internship, I worked on my **RoughLife** project and completed related learning activities such as worklogs, proposal writing, translated blogs, event reports, and workshop documentation. These tasks helped me improve my understanding of AWS services, cloud architecture, technical writing, teamwork, and project-based learning.
+Regarding my working attitude, I always tried to complete assigned tasks responsibly, complied with the company's rules and regulations, and actively communicated with my teammates as well as other interns in the company to improve work efficiency.
 
-## Work Completed
+To objectively reflect on my internship experience, I evaluated my performance based on the following criteria:
 
-- Maintained weekly worklogs to track learning progress and internship tasks.
-- Researched and wrote proposal content for the RoughLife project.
-- Translated and summarized AWS and cloud-related blog posts.
-- Participated in FCAJ and AWS Study Group events, then documented key takeaways.
-- Built workshop content with screenshots, explanations, and step-by-step guidance.
-- Improved the internship report website using Hugo and organized content in both English and Vietnamese.
+| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
+| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
+| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅   | ☐    | ☐       |
+| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅   | ☐       |
+| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ☐    | ✅   | ☐       |
+| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅   | ☐    | ☐       |
+| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ✅   | ☐    | ☐       |
+| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ✅   | ☐    | ☐       |
+| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ☐    | ✅      |
+| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅   | ☐    | ☐       |
+| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅   | ☐    | ☐       |
+| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅   | ☐       |
+| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ☐    | ✅   | ☐       |
+| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ☐    | ✅   | ☐       |
 
-## Skills Improved
+### Needs Improvement
 
-### Technical Skills
-
-I improved my ability to read technical documentation, organize project content, and connect AWS services with practical use cases. Through the workshop and proposal sections, I became more familiar with topics such as VPC, S3 access patterns, endpoint architecture, CloudFront, WAF, DevOps automation, AI-assisted workflows, and secure cloud design.
-
-### Documentation and Reporting
-
-Before the internship, I was not very confident in writing long technical reports. During the internship, I practiced writing more structured content, explaining technical steps clearly, and using screenshots to support the reader. This helped me understand that good documentation is not just about recording what was done, but also explaining why each step matters.
-
-### Self-Learning
-
-The program required me to learn many new concepts independently. At first, I needed a lot of time to understand unfamiliar AWS topics, but over time I became better at searching documentation, comparing examples, asking clearer questions, and summarizing what I learned.
-
-### Teamwork and Communication
-
-Working with teammates helped me improve communication and task coordination. I learned to ask for support when needed, share progress more clearly, and listen to feedback from others. I still need to become more confident when communicating outside my immediate group, but this internship helped me make real progress.
-
-## Self-Evaluation Table
-
-| No. | Criteria | Self-rating | Evidence |
-| --- | --- | --- | --- |
-| 1 | Professional knowledge and skills | Good | Applied cloud concepts in proposal, workshop, and report content. |
-| 2 | Ability to learn | Fair | Learned many new AWS and AI topics, but still needed extra time for difficult concepts. |
-| 3 | Proactiveness | Fair | Became more active in researching and documenting tasks, but can still improve initiative. |
-| 4 | Sense of responsibility | Good | Completed main report sections, updated content, and followed internship requirements. |
-| 5 | Discipline | Good | Maintained worklogs and continued improving the report throughout the internship. |
-| 6 | Progressive mindset | Good | Accepted feedback and revised content many times to improve quality. |
-| 7 | Communication | Fair | Communicated with teammates and mentor, but should be more confident and concise. |
-| 8 | Teamwork | Good | Cooperated with group members and supported shared project/report goals. |
-| 9 | Professional conduct | Good | Respected the working environment, mentors, and community members. |
-| 10 | Problem-solving | Fair | Could identify and fix issues, but sometimes needed repeated attempts or guidance. |
-| 11 | Contribution to project/team | Fair | Contributed report content and project documentation, but technical contribution can be stronger. |
-| 12 | Overall performance | Good | Completed the internship with clear learning progress and a more mature working attitude. |
-
-## Strengths
-
-- Willing to learn new technologies and improve from feedback.
-- Able to document learning progress and organize report content.
-- Responsible with assigned tasks and committed to completing the internship report.
-- Interested in applying cloud concepts to a real project instead of only studying theory.
-- More confident in using AI tools to support research, writing, and technical explanation.
-
-## Areas for Improvement
-
-- Need to improve speed when learning unfamiliar technical concepts.
-- Need to be more proactive in asking questions and proposing solutions earlier.
-- Need to strengthen communication with people outside the immediate team.
-- Need more hands-on practice with AWS services to build deeper technical confidence.
-- Need to improve problem-solving by analyzing root causes more carefully before fixing.
-
-## Overall Reflection
-
-This internship helped me understand the gap between studying technology and applying it in a real project. I learned that technical growth requires consistency, patience, documentation, and the ability to receive feedback. Although I still have areas to improve, I believe the internship helped me become more disciplined, more aware of my weaknesses, and better prepared for future cloud and software engineering work.
+- My learning ability still needs improvement, as I sometimes require more time than expected to understand and master new knowledge.
+- I am occasionally passive when assigned new tasks and often need guidance or suggestions from my teammates before proceeding.
+- My communication skills within my team are acceptable, but I need to improve my communication and interaction with colleagues outside my team.
+- My problem-solving skills need further development, as I sometimes encounter basic issues and have to spend extra time fixing them through multiple attempts.
+- Although I consistently completed assigned tasks on time and was willing to accept feedback and improve my skills, my overall contribution to the project could have been greater.

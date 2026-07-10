@@ -1,95 +1,103 @@
 ---
-title: "AWS Study Group Workshop - AI in Development"
-date: 2024-01-01
+title: 'Sự kiện 1'
+date: 2026-05-09
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: ' <b> 4.1. </b> '
 ---
 
-# AWS Study Group Workshop - AI in Development
+# Báo cáo tóm tắt: “AWS Study Group Workshop - AI trong Vòng đời Phát triển Phần mềm”
 
-## Thông tin sự kiện
+### Mục tiêu của sự kiện
 
-**Tên sự kiện:** AWS Study Group Workshop - AI in Development Lifecycle  
-**Thời gian:** 09/05/2026  
-**Địa điểm:** Tầng 26, Bitexco Tower, 02 Hai Triều, Phường Sài Gòn, TP. Hồ Chí Minh  
-**Vai trò:** Người tham dự
+- Chia sẻ kinh nghiệm thực tế trong việc tổ chức và triển khai các workshop kỹ thuật về AWS.
+- Giới thiệu các công nghệ AWS và những phương pháp thực hành tốt được áp dụng trong các dự án thực tế.
+- Minh họa cách các công cụ AI có thể hỗ trợ ở nhiều giai đoạn khác nhau của vòng đời phát triển phần mềm.
+- Cung cấp định hướng nghề nghiệp và lời khuyên về phát triển chuyên môn cho sinh viên và lập trình viên mới.
+- Khuyến khích giao lưu, kết nối và chia sẻ kiến thức trong cộng đồng AWS Study Group.
 
-## Tổng quan
+### Diễn giả
 
-Workshop giúp em hiểu rõ hơn cách AI đang thay đổi quá trình học tập, làm việc và phát triển phần mềm. Nội dung không chỉ dừng ở việc giới thiệu công cụ, mà còn kết nối AI-assisted development với thói quen học tập, chất lượng prompt, sự chuẩn bị nghề nghiệp và cách xây dựng sản phẩm hiện đại.
+Workshop có sự tham gia chia sẻ của các thành viên giàu kinh nghiệm thuộc cộng đồng AWS Study Group:
 
-Điểm em thấy hữu ích nhất là sự cân bằng giữa tư duy và thực hành. Em nhận ra rằng dùng AI hiệu quả không phải là để công cụ làm thay mọi thứ, mà là biết đặt câu hỏi tốt hơn, cung cấp ngữ cảnh rõ hơn, kiểm tra kết quả cẩn thận hơn và biến AI thành một phần hợp lý trong workflow phát triển phần mềm.
+**Anh Long (Admin)**
 
-## Mục tiêu sự kiện
+**Chủ đề: "Làm thế nào để nghiện học tập như nghiện mạng xã hội"**
 
-- Hiểu cách AI hỗ trợ vòng đời phát triển phần mềm, từ lên ý tưởng, viết code, tạo tài liệu đến cải tiến sản phẩm.
-- Học cách tiếp cận prompt engineering và cải thiện chất lượng đầu ra của LLM.
-- Xây dựng thói quen học tập bền vững để quá trình phát triển kỹ năng không bị rời rạc.
-- Nhìn lại khoảng cách giữa việc học công nghệ và sự sẵn sàng cho công việc thực tế.
-- Hiểu cách các nhóm hiện đại xây dựng, đo lường, phân tích và triển khai sản phẩm theo hướng lặp.
+- Giới thiệu các phương pháp xây dựng thói quen học tập bền vững.
+- Giải thích cách duy trì động lực và giúp việc học trở nên thú vị hơn.
 
-## Diễn giả và nội dung chia sẻ
+**Anh Thịnh (Admin)**
 
-- **Anh Long:** Chia sẻ cách làm cho việc học trở nên hấp dẫn và duy trì đều đặn hơn, đặc biệt với người học dễ bị phân tán bởi mạng xã hội.
-- **Anh Thịnh:** Giới thiệu automated prompt engineering và cách prompt tốt hơn có thể cải thiện chất lượng nội dung do AI tạo ra.
-- **Anh Khang:** Chia sẻ về sự sẵn sàng đi làm, lý do nhiều bạn học mãi nhưng chưa bắt đầu công việc thực tế, và những điều cần chuẩn bị trước khi ứng tuyển.
-- **Diễn giả Software Developer:** Chia sẻ tư duy BMAD gồm Build, Measure, Analyze và Deploy như một vòng lặp thực tế trong phát triển phần mềm.
+**Chủ đề: "Prompt Engineering Tự động: Nâng cao chất lượng đầu ra của Mô hình Ngôn ngữ Lớn (LLM)"**
 
-## Những điều học được
+- Giải thích các kỹ thuật xây dựng prompt hiệu quả hơn.
+- Minh họa cách cải thiện chất lượng và tính nhất quán của nội dung do AI tạo ra.
 
-### Thói quen học tập và động lực
+**Anh Khang (Admin)**
 
-Em học được rằng phát triển kỹ thuật phụ thuộc rất nhiều vào sự đều đặn. Một hệ thống học tập tốt nên đủ nhỏ để duy trì hằng ngày, nhưng cũng đủ rõ để nhìn thấy tiến độ theo thời gian. Điều này giúp em nhìn lại cách mình sắp xếp việc học AWS, làm project và ghi chép.
+**Chủ đề: "Tại sao bạn vẫn chưa bắt đầu đi làm?"**
 
-### AI trong phát triển phần mềm
+- Phân tích những khó khăn phổ biến mà sinh viên và người mới tốt nghiệp thường gặp khi tìm việc.
+- Chia sẻ những lời khuyên để chuẩn bị cho môi trường làm việc chuyên nghiệp trong ngành công nghệ.
 
-AI có thể hỗ trợ nhiều hoạt động phát triển, nhưng chất lượng kết quả phụ thuộc vào chất lượng ngữ cảnh. Một prompt hữu ích nên nêu rõ mục tiêu, giới hạn, tình huống hiện tại, đầu ra mong muốn và tiêu chí đánh giá. Điều này đặc biệt quan trọng khi dùng AI để viết code, giải thích kiến trúc hoặc soạn tài liệu kỹ thuật.
+**Diễn giả khách mời (Kỹ sư Phát triển Phần mềm)**
 
-### Sự sẵn sàng nghề nghiệp
+**Chủ đề: "BMAD" (Xây dựng, Đo lường, Phân tích, Triển khai)**
 
-Phần chia sẻ về career readiness nhắc em rằng kiến thức kỹ thuật không phải là yếu tố duy nhất. Giao tiếp, tinh thần trách nhiệm, teamwork và khả năng giải thích quyết định cũng rất quan trọng khi chuyển từ học tập sang môi trường làm việc thật.
+- Giới thiệu quy trình phát triển phần mềm theo mô hình BMAD.
+- Giải thích vai trò của việc đo lường và phân tích trong quá trình cải tiến phần mềm.
 
-### Quy trình phát triển hiện đại
+### Những nội dung nổi bật
 
-Vòng lặp BMAD giúp em nhìn phát triển sản phẩm như một quá trình cải tiến liên tục. Thay vì cố gắng hoàn hảo ngay từ đầu, nên xây dựng phiên bản nhỏ, đo kết quả, phân tích phản hồi và cải thiện từng bước.
+### 1. "Làm thế nào để nghiện học tập như nghiện mạng xã hội" – Trình bày bởi Anh Long (Admin)
 
-## Cảm nhận cá nhân
+- Học được cách xây dựng thói quen học tập đều đặn thông qua các mục tiêu nhỏ mỗi ngày.
+- Hiểu rằng tính kỷ luật quan trọng hơn động lực nhất thời.
+- Có thêm ý tưởng để cải thiện kế hoạch học tập cá nhân.
 
-Sự kiện này có giá trị vì liên quan trực tiếp đến hành trình thực tập của em. Em đang học AWS, viết báo cáo, xây dựng workshop và sử dụng AI tools cùng lúc, nên các phần chia sẻ giúp em tổ chức những việc đó có mục tiêu hơn.
+### 2. "Prompt Engineering Tự động: Nâng cao chất lượng đầu ra của Mô hình Ngôn ngữ Lớn (LLM)" – Trình bày bởi Anh Thịnh (Admin)
 
-Bài học lớn nhất với em là AI nên được xem như một cộng sự, không phải một lối tắt. AI có thể tăng tốc quá trình suy nghĩ và thực hiện, nhưng em vẫn cần hiểu vấn đề, kiểm chứng câu trả lời và đưa ra quyết định có trách nhiệm. Sau workshop, em chú ý hơn đến cách viết prompt, cách ghi chép kiến thức và cách biến những nhiệm vụ nhỏ hằng ngày thành tiến bộ dài hạn.
+- Học được những kiến thức cơ bản về Prompt Engineering cho các mô hình ngôn ngữ lớn.
+- Hiểu cách xây dựng prompt hiệu quả để nâng cao chất lượng phản hồi của AI.
+- Khám phá các phương pháp ứng dụng AI hiệu quả hơn trong quá trình phát triển phần mềm.
 
-## Giá trị kết nối cộng đồng
+### 3. "Tại sao bạn vẫn chưa bắt đầu đi làm?" – Trình bày bởi Anh Khang (Admin)
 
-- Kết nối với các anh chị admin và thành viên của AWS Study Group.
-- Gặp thêm các bạn đang học AWS, tìm hiểu AI tools và chuẩn bị định hướng nghề nghiệp.
-- Hiểu thêm cách tổ chức workshop cộng đồng và cách diễn giả cấu trúc một phần chia sẻ kỹ thuật.
-- Nhìn thấy giá trị của việc tham gia cộng đồng để trao đổi tài nguyên, nhận feedback và tìm hướng học tập.
+- Hiểu rõ khoảng cách giữa kiến thức học tập và yêu cầu thực tế của doanh nghiệp.
+- Nhận thức được tầm quan trọng của kinh nghiệm thực tế, kỹ năng giao tiếp và việc học tập liên tục.
+- Xác định được những kỹ năng và tư duy cần thiết để sẵn sàng cho công việc trong tương lai.
 
-## Việc cần làm sau sự kiện
+### 4. "BMAD (Xây dựng, Đo lường, Phân tích, Triển khai)" – Trình bày bởi Diễn giả khách mời
 
-- Luyện viết prompt rõ ràng hơn cho các tác vụ kỹ thuật và tài liệu.
-- Duy trì learning log có cấu trúc hơn cho các chủ đề AWS và AI.
-- Áp dụng vòng lặp BMAD vào các workshop và project sau này.
-- Tiếp tục tham gia các sự kiện AWS Study Group và FCAJ để học từ trải nghiệm thực tế của cộng đồng.
+- Học được quy trình cơ bản của phương pháp phát triển phần mềm BMAD.
+- Hiểu được tầm quan trọng của việc đo lường và phân tích hiệu quả phần mềm.
+- Nhận thức được giá trị của việc cải tiến liên tục trong suốt quá trình phát triển sản phẩm.
 
-## Tài nguyên
+---
 
-- [AWS Study Group Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)
-- Discord Lamentum
-- Slide và tài liệu sự kiện được cộng đồng chia sẻ
+## Ảnh hưởng đến quá trình thực tập
 
-## Đánh giá tổng quan
+- Áp dụng các phương pháp học tập mới để nâng cao hiệu quả trong quá trình thực tập.
+- Hiểu rõ hơn cách các công cụ AI như Kiro có thể hỗ trợ quá trình phát triển phần mềm.
+- Nhận thức được tầm quan trọng của việc kết hợp giữa kiến thức chuyên môn và các kỹ năng nghề nghiệp.
 
-**5/5** - Workshop rất hữu ích vì kết hợp được AI, tư duy học tập, quy trình phát triển và chuẩn bị nghề nghiệp trong một buổi chia sẻ thực tế.
+---
 
-## Hình ảnh sự kiện
+## Hoạt động giao lưu và kết nối
 
-![Hình ảnh Event 1 - 1](/images/4-EventParticipated/event1/1783681915165_488790801746558625_6340294277924690580_a06885903030370c451aab2d36d9c3a8.jpg)
+- Kết nối với các quản trị viên và thành viên của cộng đồng AWS Study Group.
+- Gặp gỡ các thực tập sinh và những người học AWS có cùng sở thích.
+- Chia sẻ kinh nghiệm và thảo luận về các cơ hội học tập trong tương lai.
 
-![Hình ảnh Event 1 - 2](/images/4-EventParticipated/event1/1783682364656_488790801746558625_6340294277924690580_78041e129d739700c9fed54ad5543377.jpg)
+---
 
-![Hình ảnh Event 1 - 3](/images/4-EventParticipated/event1/1783682364763_488790801746558625_6340294277924690580_f1b5ec5b87f4d08dbfa1fe94d8aa849b.jpg)
+## Kế hoạch phát triển trong tương lai
 
-![Hình ảnh Event 1 - 4](/images/4-EventParticipated/event1/1783682501731_488790801746558625_6340294277924690580_2d304eee1b9bf556ffb62cf67121e225.jpg)
+- Duy trì lịch học tập đều đặn và nhất quán.
+- Thực hành Prompt Engineering khi sử dụng các công cụ AI hỗ trợ phát triển phần mềm.
+- Xây dựng thêm nhiều dự án thực tế để nâng cao kỹ năng chuyên môn.
+- Áp dụng phương pháp BMAD vào các dự án trong tương lai.
+- Tiếp tục tham gia các hoạt động của cộng đồng AWS Study Group.
+  ![overview](/images/4-Event/event1.jpg)
+  ![overview](/images/4-Event/Event1.png)

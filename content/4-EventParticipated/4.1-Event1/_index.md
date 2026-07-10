@@ -1,95 +1,103 @@
 ---
-title: "AWS Study Group Workshop - AI in Development"
-date: 2024-01-01
+title: 'Event 1'
+date: 2026-05-09
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: ' <b> 4.1. </b> '
 ---
 
-# AWS Study Group Workshop - AI in Development
+# Summary Report: “AWS Study Group Workshop - AI in Development Lifecycle”
 
-## Event Information
+### Event Objectives
 
-**Event name:** AWS Study Group Workshop - AI in Development Lifecycle  
-**Date:** May 9, 2026  
-**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-**Role:** Attendee
+- Share practical experiences in organizing and conducting AWS technical workshops.
+- Introduce AWS technologies and best practices used in real-world projects.
+- Demonstrate how AI tools can support different stages of the software development lifecycle.
+- Provide career guidance and professional development advice for students and junior developers.
+- Encourage networking and knowledge sharing within the AWS Study Group community.
 
-## Overview
+### Speakers
 
-This workshop helped me understand how AI is changing the way developers learn, build, and improve software. The event did not only introduce AI tools; it connected AI-assisted development with learning discipline, prompt quality, career preparation, and modern product delivery.
+The workshop included presentations from experienced members of the AWS Study Group community:
 
-What made the workshop useful was the balance between mindset and practice. I could see that using AI effectively is not about depending on a tool to do everything, but about asking better questions, giving clearer context, checking the output carefully, and turning AI support into a real development habit.
+**Anh Long (Admin)**
 
-## Event Objectives
+**Topic: "How to Get Addicted to Learning Like Social Media"**
 
-- Understand how AI can support the software development lifecycle, from ideation and coding to documentation and iteration.
-- Learn practical approaches to prompt engineering and improving LLM output quality.
-- Build better learning habits so technical growth becomes consistent instead of random.
-- Reflect on the gap between studying technology and being ready for professional work.
-- Learn how modern teams build, measure, analyze, and deploy products in an iterative way.
+- Introduced practical methods for building long-term learning habits.
+- Explained how to stay motivated and make continuous learning more enjoyable.
 
-## Speakers and Sessions
+**Anh Thịnh (Admin)**
 
-- **Anh Long:** Shared strategies for making learning more engaging and sustainable, especially for students who are easily distracted by social media.
-- **Anh Thịnh:** Introduced automated prompt engineering and explained how better prompts can improve the quality of AI-generated output.
-- **Anh Khang:** Discussed job readiness, why many learners delay entering the workforce, and what should be prepared before applying for real roles.
-- **Software Developer speaker:** Shared the BMAD mindset: Build, Measure, Analyze, and Deploy as a practical cycle for modern software development.
+**Topic: "Automated Prompt Engineering: Enhancing LLM Output Quality"**
 
-## Key Takeaways
+- Explained techniques for designing more effective prompts.
+- Demonstrated ways to improve the quality and consistency of AI-generated responses.
 
-### Learning Habits and Motivation
+**Anh Khang (Admin)**
 
-I learned that technical growth depends heavily on consistency. A good learning system should be small enough to maintain daily, but clear enough to show progress over time. This made me rethink how I schedule AWS study, project work, and documentation.
+**Topic:** "**Why You Haven’t Started Working Yet**"
 
-### AI-Powered Development
+- Discussed common obstacles faced by new graduates and job seekers.
+- Shared advice on preparing for a professional career in the technology industry.
 
-AI can support many development activities, but the quality of the result depends on the quality of the context. A useful prompt should explain the goal, constraints, current situation, expected output, and evaluation criteria. This is especially important when using AI for coding, architecture explanation, or writing technical documents.
+**Guest Speaker (Software Developer)**
 
-### Career Readiness
+**Topic: "BMAD" (Build, Measure, Analyze, Deploy)**
 
-The career sharing session reminded me that technical knowledge alone is not enough. Communication, ownership, teamwork, and the ability to explain decisions are also important when moving from learning to real work.
+- Introduced the BMAD development workflow.
+- Explained how continuous measurement and analysis contribute to software improvement.
 
-### Modern Development Practices
+### Key Highlights
 
-The BMAD cycle helped me see product development as an iterative process. Instead of trying to make everything perfect at the beginning, it is better to build a small version, measure results, analyze feedback, and improve continuously.
+### 1. "How to Get Addicted to Learning Like Social Media" – Presented by Anh Long (Admin)
 
-## Personal Reflection
+- Learned how to build consistent learning habits through small daily goals.
+- Understood that discipline is more important than temporary motivation.
+- Gained ideas for improving my personal study routine.
 
-This event was valuable because it connected directly with my internship journey. I was learning AWS, writing reports, building workshop content, and using AI tools at the same time, so the sessions helped me organize those activities more intentionally.
+### 2. "Automated Prompt Engineering: Enhancing LLM Output Quality" – Presented by Anh Thịnh (Admin)
 
-The biggest lesson for me was that AI should be treated as a collaborator, not a shortcut. It can speed up thinking and execution, but I still need to understand the problem, verify the answer, and make responsible decisions. After the workshop, I became more careful with how I write prompts, how I document learning, and how I turn small daily tasks into long-term progress.
+- Learned the fundamentals of prompt engineering for large language models.
+- Understood how well-structured prompts improve AI-generated results.
+- Discovered practical ways to use AI tools more effectively during development.
 
-## Networking and Community Value
+### 3. "Why You Haven’t Started Working Yet" – Presented by Anh Khang (Admin)
+
+- Understood the gap between academic learning and industry requirements.
+- Learned the importance of practical experience, communication, and continuous learning.
+- Identified the skills and mindset needed for career readiness.
+
+### 4. "BMAD (Build, Measure, Analyze, Deploy)" – Presented by a Software Developer
+
+- Learned the basic workflow of the BMAD development methodology.
+- Understood the importance of measuring and analyzing software performance.
+- Recognized the value of continuous improvement throughout development.
+
+---
+
+## Impact on My Internship
+
+- Applied new learning strategies to improve my daily internship routine.
+- Better understood how AI tools such as Kiro can support software development.
+- Realized the importance of combining technical knowledge with professional skills.
+
+---
+
+## Community Engagement
 
 - Connected with AWS Study Group admins and community members.
-- Met other learners who were also exploring AWS, AI tools, and career development.
-- Learned how community workshops are organized and how speakers structure technical sharing.
-- Saw the value of staying active in a community where people exchange resources, feedback, and learning directions.
+- Met other interns and AWS learners with similar interests.
+- Shared experiences and discussed future learning opportunities.
 
-## Action Items
+---
 
-- Practice writing clearer prompts for technical tasks and documentation.
-- Keep a more structured learning log for AWS and AI-related topics.
-- Apply the BMAD cycle to future workshop and project work.
-- Continue joining AWS Study Group and FCAJ events to learn from community experience.
+## Future Improvement Plan
 
-## Resources
-
-- [AWS Study Group Facebook](https://www.facebook.com/groups/awsstudygroupfcj/)
-- Discord Lamentum
-- Event slides and materials shared by the community
-
-## Overall Rating
-
-**5/5** - This workshop was highly useful because it combined AI, learning mindset, development process, and career preparation in one practical session.
-
-## Event Photos
-
-![Event 1 photo 1](/images/4-EventParticipated/event1/1783681915165_488790801746558625_6340294277924690580_a06885903030370c451aab2d36d9c3a8.jpg)
-
-![Event 1 photo 2](/images/4-EventParticipated/event1/1783682364656_488790801746558625_6340294277924690580_78041e129d739700c9fed54ad5543377.jpg)
-
-![Event 1 photo 3](/images/4-EventParticipated/event1/1783682364763_488790801746558625_6340294277924690580_f1b5ec5b87f4d08dbfa1fe94d8aa849b.jpg)
-
-![Event 1 photo 4](/images/4-EventParticipated/event1/1783682501731_488790801746558625_6340294277924690580_2d304eee1b9bf556ffb62cf67121e225.jpg)
+- Maintain a consistent daily learning schedule.
+- Practice prompt engineering with AI development tools.
+- Build more practical projects to strengthen technical skills.
+- Apply the BMAD methodology in future projects.
+- Continue participating in AWS Study Group activities.
+  ![overview](/images/4-Event/event1.jpg)
+  ![overview](/images/4-Event/Event1.png)

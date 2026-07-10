@@ -9,25 +9,24 @@ chapter: false
 
 ### Thông tin sinh viên:
 
-&emsp; **Họ và tên:** Nguyen Thanh Cong
+&emsp; **Họ và tên:** Trần Hữu Lễ
 
-&emsp; **Số điện thoại:** 0588888238
+&emsp; **Số điện thoại:** 0854700572
 
-&emsp; **Email:** nguyencong7564@gmail.com
+&emsp; **Email:** letran237123@gmail.com
 
 &emsp; **Trường:** Đại học Công Nghệ Hutech
 
 &emsp; **Ngành:** Kỹ thuật phần mềm
-
 &emsp; **Lớp:** 22DTHD7
 
-&emsp; **Công ty thực tập:** Amazon Web Services Viet Nam Company Limited
+&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
-&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
+&emsp; **Vị trí thực tập:** FCJ Cloud Intern
 
-&emsp; **Thời gian thực tập:** Từ ngày 20 tháng 4 năm 2026 đến ngày 12 tháng 7 năm 2026
+&emsp; **Thời gian thực tập:** Từ ngày 17 tháng 4 năm 2026 đến ngày 10 tháng 7 năm 2026
 
-![Nguyen Thanh Cong](/images/avatar.jpg)
+![Ảnh đại diện của bạn](/images/AnhDaiDien.jpg)
 
 ### Nội dung báo cáo
 

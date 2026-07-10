@@ -1,10 +1,11 @@
 ﻿---
-title: "Blog 3 - GameLift server fleet với sidecar và state storage"
+title: 'Blog 3 - GameLift server fleet với sidecar và state storage'
 date: 2026-06-30
 weight: 3
 chapter: false
-pre: " <b> 3.3. </b> "
+pre: ' <b> 3.3. </b> '
 ---
+
 {{% notice warning %}}
 **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
@@ -15,7 +16,7 @@ Link Facebook: [AWS Study Group Facebook permalink 2196945564403737](https://www
 
 Link blog gốc AWS: [Faster multiplayer hosting with containers on Amazon GameLift Servers](https://aws.amazon.com/blogs/gametech/faster-multiplayer-hosting-with-containers-on-amazon-gamelift-servers/)
 
-![Kiến trúc GameLift fleet với sidecar](/images/3-blogstranslated/731883848_1804734080507600_5742217141909987603_n.jpg)
+![Kiến trúc GameLift fleet với sidecar](/images/3-blogstranslated/blog3.jpg)
 
 ## Tổng quan
 
@@ -42,4 +43,3 @@ Sidecar process giúp game server tập trung vào simulation và networking. Th
 ## Áp dụng cho RoughLife
 
 Với RoughLife, pattern này hữu ích vì game sinh tồn thường cần persistent world state, match result records và player progression. Game server có thể tập trung vào authoritative gameplay, trong khi sidecar hoặc backend integration xử lý save và storage. Cách này tạo ranh giới rõ giữa realtime gameplay và long-term persistence.
-

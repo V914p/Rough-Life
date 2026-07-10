@@ -37,11 +37,7 @@ pre: '<b>1.2.</b>'
 ### Step 2: Attach Permissions
 
 - Attach the following managed policy:
-- `AdministratorAccess`> **Note:** This permission is suitable for learning and development. In production environments, permissions should always follow the **Principle of Least Privilege**.
-
-👉 Note: In production, should follow **Principle of Least Privilege**
-
----
+- `AdministratorAccess`>
 
 ### Step 3: Create IAM User
 

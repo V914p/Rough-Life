@@ -1,10 +1,11 @@
 ﻿---
-title: "Blog 1 - GameLift FlexMatch serverless matchmaking"
+title: 'Blog 1 - GameLift FlexMatch serverless matchmaking'
 date: 2026-06-21
 weight: 1
 chapter: false
-pre: " <b> 3.1. </b> "
+pre: ' <b> 3.1. </b> '
 ---
+
 {{% notice warning %}}
 **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
@@ -15,7 +16,7 @@ Link Facebook: [AWS Study Group Facebook permalink 2191111528320474](https://www
 
 Link blog gốc AWS: [Online Multiplayer with Amazon GameLift and AWS serverless](https://aws.amazon.com/blogs/gametech/online-multiplayer-amazon-gamelift-aws-serverless/)
 
-![Kiến trúc serverless matchmaking](/images/3-blogstranslated/727466501_1798896974424644_7417817182196219607_n.jpg)
+![Kiến trúc serverless matchmaking](/images/3-blogstranslated/blog1.jpg)
 
 ## Tổng quan
 
@@ -49,4 +50,3 @@ Với RoughLife, pattern này hữu ích vì matchmaking không nằm trong vòn
 ## Tóm tắt bản dịch
 
 Một multiplayer backend tốt cần xác thực player, theo dõi player state, tạo matchmaking ticket, xử lý match result và trả đủ thông tin để client tham gia đúng session. Việc dùng serverless services giúp giảm công vận hành và làm lớp matchmaking dễ phát triển hơn khi game mở rộng.
-

@@ -1,94 +1,137 @@
 ---
-title: "FCAJ Community Day - AI, CloudFront, LLM and Multi-Agent Systems"
-date: 2024-01-01
-weight: 2
+title: 'Sự kiện 2'
+date: 2026-05-23
+weight: 1
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: ' <b> 4.2. </b> '
 ---
 
-# FCAJ Community Day - AI, CloudFront, LLM and Multi-Agent Systems
+# Báo cáo tóm tắt: “FCAJ Community Day”
 
-## Thông tin sự kiện
+### Mục tiêu của sự kiện
 
-**Tên sự kiện:** FCAJ Community Day - Speaker Sharing Session  
-**Thời gian:** 23/05/2026  
-**Vai trò:** Người tham dự
+- Chia sẻ kiến thức thực tiễn về phát triển phần mềm hiện đại và các công nghệ AWS.
+- Giới thiệu các công cụ phát triển được hỗ trợ bởi AI và các giải pháp dành cho doanh nghiệp.
+- Cung cấp định hướng nghề nghiệp và chia sẻ kinh nghiệm từ các diễn giả giàu kinh nghiệm trong ngành.
+- Khuyến khích tinh thần học tập liên tục và hợp tác trong cộng đồng lập trình viên.
 
-## Tổng quan
+### Diễn giả
 
-FCAJ Community Day lần này quy tụ nhiều speaker với các góc nhìn khác nhau về hệ thống học tập cá nhân, ứng dụng AI, cloud delivery, nền tảng hoạt động của LLM, quá trình xây dựng sản phẩm trong hackathon và kiến trúc AI trong doanh nghiệp. Thay vì chỉ tập trung vào một chủ đề hẹp, sự kiện giống như một ngày học cô đọng, nơi mỗi phần chia sẻ mở ra một hướng tìm hiểu mới.
+Workshop có sự tham gia của nhiều diễn giả giàu kinh nghiệm đến từ cộng đồng AWS và lĩnh vực phát triển phần mềm.
 
-Sự kiện có ý nghĩa với em vì nó cho thấy cloud và AI không phải là những kỹ năng tách rời. Một kỹ sư tốt cần biết tổ chức kiến thức, hiểu nền tảng hạ tầng, đánh giá hành vi của AI và chuyển ý tưởng kỹ thuật thành sản phẩm mà người dùng có thể sử dụng được.
+**Master Hưng**
 
-## Các phần chia sẻ chính
+**Chủ đề: "Ba yếu tố thiết yếu dành cho lập trình viên hiện đại"**
 
-- **Anh Tịnh - Build Second Brain:** Chia sẻ cách xây dựng hệ thống quản lý tri thức cá nhân để kiến thức được lưu lại, liên kết và tái sử dụng theo thời gian.
-- **Hải Anh - Friendly AI Assistant with Amazon Q:** Giới thiệu cách AI assistant hỗ trợ công việc hằng ngày và cải thiện trải nghiệm tương tác khi được gắn với workflow rõ ràng.
-- **Thịnh - From Edge to Origin: CloudFront as Your Foundation:** Giải thích cách CloudFront hỗ trợ hiệu năng, độ tin cậy, bảo mật và global delivery.
-- **Team VIB - 36 hours with LotusHacks: Building UTMorpho from Idea to Reality:** Chia sẻ bài học từ việc biến một ý tưởng thành sản phẩm hoạt động được trong áp lực hackathon.
-- **Đào Đức - Deep Dive Talk: How LLM Actually Works:** Giải thích cách language model xử lý ngữ cảnh, dự đoán đầu ra và vì sao người dùng cần đánh giá câu trả lời của AI cẩn thận.
-- **Cát Vy - Enterprise-Grade Multi-Agent System: The Case of Startup Credit Scoring:** Trình bày cách nhiều AI agents phối hợp trong một workflow nghiệp vụ có cấu trúc.
+- Nhấn mạnh tầm quan trọng của nền tảng kỹ thuật vững chắc.
+- Đề cao việc học tập liên tục và tích lũy kinh nghiệm thực tế.
+- Khuyến khích lập trình viên tập trung xây dựng nền tảng trước khi tạo ra sản phẩm.
 
-## Những điều học được
+**Tịnh**
 
-### Quản lý tri thức cá nhân
+**Chủ đề: "Tại sao AI thất bại khi thiếu ngữ cảnh"**
 
-Phần second brain giúp em nhận ra rằng việc học có giá trị hơn khi ghi chú được liên kết với nhau. Thay vì lưu thông tin chỉ để dùng ngắn hạn, em nên xây dựng hệ thống giúp mình xem lại ý tưởng, nối các chủ đề liên quan và tái sử dụng kiến thức trong báo cáo, workshop và project.
+- Giải thích tầm quan trọng của việc cung cấp đầy đủ ngữ cảnh khi sử dụng AI.
+- Giới thiệu các khái niệm như tư duy AI-First, Prompt Engineering và Memory.
+- Chia sẻ những sai lầm phổ biến làm giảm hiệu quả của AI.
 
-### AI assistant trong workflow thực tế
+**Anh Phạm**
 
-Các use case về Amazon Q và AI assistant cho thấy AI chỉ thật sự hữu ích khi được gắn với một vấn đề rõ ràng. Một assistant tốt cần hiểu ý định người dùng, trả lời đáng tin cậy và nằm tự nhiên trong workflow thay vì trở thành một công cụ rời rạc.
+**Chủ đề: "Tổng quan và trình diễn Amazon Q"**
 
-### CloudFront và edge delivery
+- Giới thiệu các khả năng của Amazon Q.
+- Trình diễn cách Amazon Q hỗ trợ quá trình phát triển phần mềm.
+- Chia sẻ các ví dụ thực tế về việc tích hợp Amazon Q với các dịch vụ AWS.
 
-Phần CloudFront nhắc em rằng edge service không chỉ là cache file tĩnh. Nó còn ảnh hưởng đến độ trễ, tính sẵn sàng, bảo mật, chi phí và trải nghiệm người dùng. Chủ đề này giúp em kết nối kiến thức networking với việc triển khai sản phẩm thật.
+**Thịnh**
 
-### Xây dựng sản phẩm trong thời gian ngắn
+**Chủ đề: "CloudFront với mô hình giá cố định và các tính năng bảo mật nâng cao"**
 
-Câu chuyện hackathon cho thấy tầm quan trọng của việc ưu tiên. Khi thời gian ngắn, team phải quyết định điều gì quan trọng nhất, chia việc rõ ràng và giao tiếp nhanh. Em hiểu hơn rằng một sản phẩm chạy được thường đến từ nhiều quyết định nhỏ nhưng tập trung.
+- Giải thích mô hình tính giá của CloudFront và các chiến lược tối ưu chi phí.
+- Giới thiệu các tính năng bảo mật như DDoS Protection, HTTPS Compression, Signed URLs và VPC Origin.
+- Minh họa cách CloudFront hỗ trợ xây dựng các ứng dụng an toàn và có khả năng mở rộng.
 
-### LLM fundamentals và multi-agent systems
+**Đội ngũ UTMorphos**
 
-Các phần về LLM và multi-agent giúp em dùng AI có trách nhiệm hơn. Khi hiểu cách LLM tạo câu trả lời, em dễ nhận ra hallucination, đặt câu hỏi tiếp theo tốt hơn và thiết kế hệ thống nơi mỗi agent có vai trò và giới hạn rõ ràng.
+**Chủ đề: "36 giờ cùng cuộc thi LotusHacks Hackathon"**
 
-## Cảm nhận cá nhân
+- Chia sẻ kinh nghiệm tham gia cuộc thi LotusHacks Hackathon.
+- Giới thiệu công cụ tạo giao diện website bằng AI.
+- Trình diễn cách AI hỗ trợ đơn giản hóa quá trình thiết kế và phát triển web.
 
-Sự kiện giúp em có góc nhìn rộng hơn về mối liên hệ giữa học tập, hạ tầng cloud và thiết kế hệ thống AI. Các phần chia sẻ không chỉ mang tính kỹ thuật, mà còn cho thấy cách các anh chị kỹ sư suy nghĩ, tổ chức thông tin và truyền đạt ý tưởng.
+**Vy Lam**
 
-Sau sự kiện, em muốn cải thiện cách quản lý ghi chú và kiến thức project của mình. Em cũng quan tâm hơn đến CloudFront và multi-agent systems vì cả hai đều có tính ứng dụng cao khi xây dựng ứng dụng scalable và workflow dùng AI.
+**Chủ đề: "Hệ thống Multi-Agent cấp doanh nghiệp"**
 
-## Giá trị kết nối cộng đồng
+- Giới thiệu kiến trúc AI Multi-Agent dành cho doanh nghiệp.
+- Chia sẻ các chiến lược triển khai và kinh nghiệm thực tế.
+- Giải thích các ứng dụng thực tế của AI Agent trong môi trường doanh nghiệp.
 
-- Học từ nhiều diễn giả khác nhau trong cộng đồng FCAJ.
-- Quan sát cách giải thích chủ đề kỹ thuật thông qua demo, câu chuyện và ví dụ sản phẩm.
-- Kết nối các chủ đề AI với dịch vụ AWS và use case thực tế.
-- Thấy rõ vai trò của cộng đồng trong việc giúp người học khám phá hướng phát triển nhanh hơn.
+### Những nội dung nổi bật
 
-## Việc cần làm sau sự kiện
+### 1. "Ba yếu tố thiết yếu dành cho lập trình viên hiện đại" – Trình bày bởi Master Hưng
 
-- Tổ chức lại ghi chú thực tập theo cấu trúc second brain rõ hơn.
-- Ôn lại CloudFront và edge delivery để phục vụ nội dung workshop sau này.
-- Luyện đánh giá câu trả lời của LLM thay vì chấp nhận ngay lập tức.
-- Tìm hiểu các pattern multi-agent đơn giản và cách phân chia vai trò trong workflow AI.
+- Hiểu được tầm quan trọng của việc xây dựng nền tảng lập trình vững chắc.
+- Nhận thức rằng học tập liên tục và kinh nghiệm thực tế là yếu tố cần thiết để phát triển lâu dài.
+- Hiểu rằng việc phát triển kỹ năng cần được ưu tiên trước khi tập trung vào sản phẩm.
 
-## Hình ảnh sự kiện
+### 2. "Tại sao AI thất bại khi thiếu ngữ cảnh" – Trình bày bởi Tịnh
 
-![Hình ảnh Event 2 - 1](/images/4-EventParticipated/event2/1783681915165_488790801746558625_6340294277924690580_a06885903030370c451aab2d36d9c3a8.jpg)
+- Hiểu rằng ngữ cảnh là yếu tố quyết định để AI tạo ra phản hồi chất lượng.
+- Nắm được cách Prompt, Context và Memory phối hợp trong hệ thống AI.
+- Nhận biết những sai lầm thường gặp khi làm việc với các công cụ AI.
 
-![Hình ảnh Event 2 - 2](/images/4-EventParticipated/event2/1783682693565_488790801746558625_6340294277924690580_b5a68641b9b343dff57a803f22a43f04.jpg)
+### 3. "Tổng quan và trình diễn Amazon Q" – Trình bày bởi Anh Phạm
 
-![Hình ảnh Event 2 - 3](/images/4-EventParticipated/event2/1783682693652_488790801746558625_6340294277924690580_38ce13e08a9bdbd01ba037b5f8f54406.jpg)
+- Làm quen với Amazon Q và các tính năng hỗ trợ phát triển bằng AI.
+- Quan sát các ví dụ trình diễn thực tế của Amazon Q trong phát triển phần mềm.
+- Hiểu cách Amazon Q tích hợp với các dịch vụ AWS để nâng cao năng suất làm việc.
 
-![Hình ảnh Event 2 - 4](/images/4-EventParticipated/event2/1783682693774_488790801746558625_6340294277924690580_ed1a377f9f8e82729ecb6cf7e7a34170.jpg)
+### 4. "CloudFront với mô hình giá cố định và các tính năng bảo mật nâng cao" – Trình bày bởi Thịnh
 
-![Hình ảnh Event 2 - 5](/images/4-EventParticipated/event2/1783682693976_488790801746558625_6340294277924690580_db9e60f2eb0a4f9591a43c4e7b3aa3a4.jpg)
+- Hiểu cách hoạt động của mô hình tính giá CloudFront và lợi ích của giá cố định trong quản lý chi phí.
+- Hiểu mục đích của các tính năng bảo mật như DDoS Protection và Signed URLs.
+- Có cái nhìn rõ hơn về kiến trúc CloudFront và tối ưu hóa CDN.
 
-![Hình ảnh Event 2 - 6](/images/4-EventParticipated/event2/1783682694119_488790801746558625_6340294277924690580_f4585e4df8a196bc1337be7020b47234.jpg)
+### 5. "36 giờ cùng cuộc thi LotusHacks Hackathon" – Trình bày bởi Đội ngũ UTMorphos
 
-![Hình ảnh Event 2 - 7](/images/4-EventParticipated/event2/1783682694339_488790801746558625_6340294277924690580_2fd3f47a991416b5ae5fe5d313254fb4.jpg)
+- Tìm hiểu những thử thách và kinh nghiệm khi tham gia một cuộc thi Hackathon.
+- Hiểu cách AI có thể tự động tạo giao diện website từ hình ảnh.
+- Nhận thức được tầm quan trọng của tinh thần làm việc nhóm và giải quyết vấn đề trong thời gian ngắn.
 
-![Hình ảnh Event 2 - 8](/images/4-EventParticipated/event2/1783682694470_488790801746558625_6340294277924690580_55cfb2b80c33daf3dd12bf4ff3f09aba.jpg)
+### 6. "Hệ thống Multi-Agent cấp doanh nghiệp" – Trình bày bởi Vy Lam
 
-![Hình ảnh Event 2 - 9](/images/4-EventParticipated/event2/1783682694697_488790801746558625_6340294277924690580_3423038f8a83090c0eda3c201f6467c4.jpg)
+- Tìm hiểu kiến trúc cơ bản của hệ thống Multi-Agent dành cho doanh nghiệp.
+- Hiểu cách các AI Agent phối hợp để giải quyết những bài toán phức tạp.
+- Có thêm góc nhìn về xu hướng phát triển AI trong các hệ thống doanh nghiệp.
 
-![Hình ảnh Event 2 - 10](/images/4-EventParticipated/event2/1783682892390_488790801746558625_6340294277924690580_47a9295b08f9d1b3d01b4db31d52ecea.jpg)
+---
+
+## Ảnh hưởng đến quá trình thực tập
+
+- Nâng cao hiểu biết về phát triển phần mềm có sự hỗ trợ của AI.
+- Tiếp thu kiến thức thực tế về CloudFront, Amazon Q và các công nghệ AI dành cho doanh nghiệp.
+- Nhận thức rõ hơn về tầm quan trọng của nền tảng kỹ thuật và việc học tập liên tục.
+
+---
+
+## Hoạt động giao lưu và kết nối
+
+- Kết nối với các thành viên trong cộng đồng AWS và các lập trình viên giàu kinh nghiệm.
+- Trao đổi ý tưởng với sinh viên, thực tập sinh và kỹ sư phần mềm.
+- Mở rộng mạng lưới quan hệ thông qua các buổi thảo luận chuyên môn.
+
+---
+
+## Kế hoạch phát triển trong tương lai
+
+- Tiếp tục củng cố nền tảng lập trình và kỹ năng giải quyết vấn đề.
+- Áp dụng các kỹ thuật quản lý ngữ cảnh khi sử dụng các công cụ AI.
+- Tìm hiểu và thực hành Amazon Q cũng như CloudFront.
+- Tham gia các cuộc thi Hackathon và cộng đồng công nghệ để tích lũy thêm kinh nghiệm thực tế.
+- Nghiên cứu sâu hơn về AI doanh nghiệp và kiến trúc hệ thống Multi-Agent.
+
+![overview](/images/4-Event/Event2.jpg)
+![overview](/images/4-Event/Event2.1.jpg)
+![overview](/images/4-Event/Event2.2.jpg)
+![overview](/images/4-Event/Event2.3.jpg)

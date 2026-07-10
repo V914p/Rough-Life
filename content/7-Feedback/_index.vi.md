@@ -1,73 +1,51 @@
 ---
-title: "Chia sẻ, đóng góp ý kiến"
-date: 2026-07-07
+title: 'Chia sẻ, đóng góp ý kiến'
+date: 2024-07-07
 weight: 7
 chapter: false
-pre: " <b> 7. </b> "
+pre: ' <b> 7. </b> '
 ---
 
-# Chia sẻ, đóng góp ý kiến
+> Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud Journey, giúp team FCJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
 
-Sau khi hoàn thành kỳ thực tập trong chương trình **Workforce Bootcamp - First Cloud AI Journey**, em xin chia sẻ lại trải nghiệm và một số góp ý cá nhân. Chương trình đã cho em cơ hội học về cloud computing, cải thiện kỹ năng viết tài liệu, tham gia các hoạt động cộng đồng và hiểu rõ hơn cách áp dụng kiến thức kỹ thuật vào project thực tế.
+### Đánh giá chung
 
-## Đánh giá chung
+**1. Môi trường làm việc**
 
-### Môi trường làm việc và học tập
+Trong suốt thời gian thực tập, mình thấy môi trường làm việc khá chuyên nghiệp nhưng vẫn tạo cảm giác gần gũi. Anh chị trong FCAJ luôn giữ thái độ thân thiện, sẵn sàng chia sẻ kinh nghiệm khi mình có thắc mắc. Điều đó giúp mình tự tin hơn khi trao đổi và học hỏi.
 
-Môi trường làm việc và học tập khá chuyên nghiệp, thân thiện và có sự hỗ trợ tốt. Cộng đồng FCJ tạo ra không gian để thực tập sinh có thể đặt câu hỏi, chia sẻ tiến độ và học hỏi lẫn nhau. Điều này giúp em thoải mái hơn khi tiếp cận các chủ đề AWS mới và tham gia các hoạt động cộng đồng.
+**2. Sự hỗ trợ của mentor / team admin**
 
-### Sự hỗ trợ từ mentor và team admin
+Mentor luôn theo sát quá trình thực tập của mình, hướng dẫn theo từng giai đoạn, công việc cần phải hoàn thành trong suốt quấ trình thực tập. Khi mình gặp lỗi hoặc chưa biết cách giải quyết, mentor sẽ gợi ý hướng xử lý để mình tự tìm ra lời giải trước khi hỗ trợ thêm. Team admin cũng hỗ trợ nhanh chóng về các vấn đề liên quan quy trình và lịch trình, giúp mình không bị gián đoạn trong quá trình thực tập.
 
-Mentor và team admin đã hỗ trợ em trong suốt quá trình thực tập. Khi gặp khó khăn, em thường nhận được gợi ý để tự suy nghĩ và tìm hướng giải quyết trước khi được hỗ trợ trực tiếp. Cách hướng dẫn này giúp em độc lập hơn và cải thiện khả năng tự học.
+**3. Sự phù hợp giữa công việc và chuyên ngành học**
 
-### Mức độ phù hợp với chuyên ngành
+Các công việc được giao có sự liên kết khá tốt với chuyên ngành mình đang theo học. Những kiến thức đã học trên lớp giúp mình tiếp cận công việc nhanh hơn, mình cũng được làm quen với nhiều kiến thức mới mà trước đây chỉ biết rất ít hoặc chưa từng biết. Đây là cơ hội để mình hiểu rõ hơn cách áp dụng kiến thức vào thực tế.
 
-Kỳ thực tập phù hợp với chuyên ngành Kỹ thuật phần mềm của em. Dù nhiều chủ đề AWS và cloud còn mới, chúng vẫn liên quan đến phát triển phần mềm, thiết kế hệ thống, triển khai, bảo mật và viết tài liệu. Nhờ vậy, em hiểu rõ hơn cách kiến thức ở trường có thể được mở rộng và áp dụng trong môi trường cloud.
+**4. Cơ hội học hỏi & phát triển kỹ năng**
 
-### Cơ hội học hỏi
+Thời gian thực tập ở FCAJ giúp mình cải thiện không chỉ kiến thức chuyên môn mà còn nhiều kỹ năng mềm cần thiết. Mình học được cách quản lý tiến độ công việc, trao đổi hiệu quả với các thành viên trong nhóm, ngoài nhóm và chủ động tìm kiếm giải pháp khi gặp khó khăn. Ngoài ra, những góp ý từ mentor cũng giúp mình nhận ra điểm cần cải thiện để phát triển tốt hơn.
 
-Chương trình tạo nhiều cơ hội học tập thông qua worklog, workshop, sự kiện, dịch blog và tài liệu project. Em có cơ hội tìm hiểu về AWS services, cloud architecture, AI-assisted development, DevOps concepts và technical writing. Những hoạt động này giúp em hình thành thói quen học tập thực tế hơn.
+**5. Văn hóa & tinh thần đồng đội**
 
-### Teamwork và cộng đồng
+Tinh thần hợp tác giữa các thành viên trong nhóm rất tốt. Mọi người luôn sẵn sàng chia sẻ kinh nghiệm, hỗ trợ lẫn nhau để hoàn thành công việc chung thay vì làm việc riêng lẻ. Không khí làm việc thoải mái nhưng vẫn đảm bảo tính chuyên nghiệp, tạo động lực để mình cố gắng và hòa nhập nhanh với tập thể.
 
-Tinh thần làm việc nhóm và cộng đồng rất tích cực. Em học được nhiều điều từ các bạn trong nhóm, mentor, diễn giả và các anh chị trong cộng đồng. Các sự kiện cũng giúp em thấy rõ tầm quan trọng của giao tiếp và chia sẻ kiến thức trong lĩnh vực công nghệ.
+**6. Chính sách / phúc lợi cho thực tập sinh**
 
-### Cấu trúc chương trình thực tập
+Công ty tạo khá nhiều điều kiện thuận lợi trong quá trình làm việc và học hỏi. Mình còn có cơ hội tham gia các buổi đào tạo nội bộ, tiếp cận với quy trình làm việc thực tế của doanh nghiệp. Những điều này giúp mình tích lũy thêm kinh nghiệm và chuẩn bị tốt hơn cho công việc sau khi tốt nghiệp.
 
-Cấu trúc chương trình giúp em theo dõi tiến độ thông qua worklog hằng tuần và các phần báo cáo rõ ràng. Việc chia báo cáo thành Worklog, Proposal, Blogs, Events, Workshop, Self-Assessment và Feedback giúp em dễ tổ chức nội dung và hoàn thành báo cáo cuối kỳ hơn.
+### Một số câu hỏi khác
 
-## Điều em hài lòng nhất
+- Điều bạn **hài lòng nhất** trong thời gian thực tập?
+  Điều mình hài lòng nhất là sự hỗ trợ tận tình từ mentor và các anh chị trong chương trình. Mỗi khi gặp khó khăn, mình luôn nhận được sự hướng dẫn kịp thời và giải quyết vấn đề. Điều này giúp mình rút ngắn tiến bộ làm đồ án và về kiến thức chuyên môn.
+- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?
+  Mình sẽ giới thiệu chương trình này cho bạn bè nếu các bạn muốn có môi trường thực tập nghiêm túc và được học hỏi nhiều. Chương trình không chỉ giúp nâng cao kiến thức chuyên môn mà còn rèn luyện kỹ năng làm việc nhóm, quản lý công việc và tư duy giải quyết vấn đề.
 
-Điều em hài lòng nhất là có cơ hội học từ các sự kiện cộng đồng thực tế và áp dụng những gì học được vào báo cáo cũng như project của mình. Chương trình không chỉ tập trung vào kiến thức kỹ thuật, mà còn khuyến khích thực tập sinh viết tài liệu, tự nhìn lại quá trình học, giao tiếp và cải thiện liên tục.
+### Đề xuất & mong muốn
 
-Em cũng rất trân trọng sự hỗ trợ từ mentor và các bạn trong nhóm. Những góp ý nhận được giúp em cải thiện chất lượng báo cáo và tự tin hơn khi làm việc với các chủ đề mới.
-
-## Khó khăn gặp phải
-
-Trong quá trình thực tập, em gặp một số khó khăn:
-
-- Một số khái niệm AWS còn mới và cần nhiều thời gian để hiểu.
-- Viết nội dung kỹ thuật dài bằng cả tiếng Anh và tiếng Việt là thử thách với em.
-- Việc sắp xếp screenshot, hình ảnh và các phần báo cáo cần nhiều sự cẩn thận.
-- Đôi khi em vẫn cần gợi ý khi xử lý lỗi kỹ thuật hoặc sắp xếp cấu trúc nội dung.
-- Giao tiếp với các bạn ngoài nhóm vẫn là điểm em cần tự tin hơn.
-
-Những khó khăn này giúp em nhận ra rõ hơn các điểm cần cải thiện sau kỳ thực tập.
-
-## Góp ý cải thiện
-
-- Có thể cung cấp thêm ví dụ ngắn hoặc mẫu cấu trúc cho từng phần báo cáo ngay từ đầu chương trình.
-- Nên có thêm các checkpoint thực hành nhỏ để thực tập sinh kiểm tra mức độ hiểu kỹ thuật sớm hơn.
-- Khuyến khích thực tập sinh trình bày cập nhật ngắn hằng tuần để tăng sự tự tin khi giao tiếp.
-- Có thể cung cấp checklist cho báo cáo cuối kỳ, bao gồm nội dung, hình ảnh, định dạng và tính nhất quán song ngữ.
-- Tiếp tục tổ chức các buổi chia sẻ cộng đồng vì những buổi này giúp thực tập sinh học từ trải nghiệm thực tế.
-
-## Mong muốn sau kỳ thực tập
-
-Sau kỳ thực tập, em muốn tiếp tục cải thiện nền tảng cloud, kỹ năng thực hành AWS, khả năng viết tài liệu và kỹ năng giao tiếp. Em cũng muốn áp dụng những gì đã học vào các project phần mềm sau này, đặc biệt là các project liên quan đến game development, backend systems và cloud deployment.
-
-Dù sau chương trình em có thể theo định hướng nghề nghiệp riêng, những kiến thức và thói quen làm việc học được từ FCJ vẫn sẽ tiếp tục hỗ trợ em trên con đường học tập sau này.
-
-## Lời cảm ơn
-
-Em xin chân thành cảm ơn team FCJ, mentor, các diễn giả và các bạn trong nhóm đã hỗ trợ em trong suốt kỳ thực tập. Đây là một trải nghiệm ý nghĩa, giúp em trưởng thành hơn không chỉ về kiến thức kỹ thuật mà còn về thái độ học tập, tính kỷ luật và nhận thức nghề nghiệp.
+- Bạn có muốn tiếp tục chương trình này trong tương lai?
+  <br>
+  Mình rất trân trọng những gì đã học được từ chương trình. Tuy nhiên, trong thời gian tới mình muốn tập trung theo đuổi định hướng nghề nghiệp riêng nên sẽ không tiếp tục tham gia.
+  <br>
+- Góp ý khác (tự do chia sẻ):
+  Mình xin cảm ơn team FCJ, mentor và các anh chị đã luôn hỗ trợ trong suốt thời gian thực tập. Đây là một trải nghiệm ý nghĩa giúp mình trưởng thành hơn cả về kiến thức lẫn kỹ năng làm việc. Hy vọng chương trình sẽ ngày càng phát triển và tạo cơ hội cho nhiều bạn sinh viên trong tương lai.

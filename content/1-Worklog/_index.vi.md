@@ -7,7 +7,7 @@ pre: ' <b> 1. </b> '
 ---
 
 {{% notice warning %}}
-**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, kể cả warning này.
+⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
 **Trong trang này** bạn sẽ cần giới thiệu worklog của bạn **như thế nào**? Bạn hoàn thành chương trình trong vòng **bao nhiêu tuần**? Bạn **đã làm gì** trong các tuần đó?
@@ -21,3 +21,4 @@ Thông thường và cũng là tiêu chuẩn, một worklog được thực hi�
 **Tuần 7:** [Lab 9 (AWS Support) và Phát triển giao diện trò chơi](1.7-week7/)
 **Tuần 8:** [Lab 11 (AWS CLI), Lab 13 (AWS Backup) và Lab 28 (Quản lý chính sách IAM)](1.8-week8/)
 **Tuần 9:** [Xây dựng Lobby trong Unity và tìm hiểu hệ thống Multiplayer](1.9-week9/) **Tuần 10:** [Thiết kế và triển khai giao diện người chơi (Player UI)](1.10-week10/) **Tuần 11:** [Thiết kế Menu trò chơi và giao diện người chơi trực tuyến](1.11-week11/)
+**Tuần 12:** [Kiểm tra lại toàn bộ dự án và viết báo cáo](1.12-week12/)

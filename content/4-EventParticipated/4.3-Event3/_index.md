@@ -1,94 +1,123 @@
 ---
-title: "FCAJ Community Day - Cloud, Security, DevOps and Teamwork"
-date: 2024-01-01
+title: 'Event 3'
+date: 2026-06-27
 weight: 3
 chapter: false
-pre: " <b> 4.3. </b> "
+pre: ' <b> 4.3. </b> '
 ---
 
-# FCAJ Community Day - Cloud, Security, DevOps and Teamwork
+# Summary Report: “FCAJ Community Day - AI Agents & DevOps Workshop”
 
-## Event Information
+### Event Objectives
 
-**Event name:** FCAJ Community Day - Cloud, Security, DevOps and Teamwork  
-**Date:** June 2026  
-**Role:** Attendee
+- Explore the latest AI technologies, cloud solutions, and DevOps practices.
+- Learn from industry experts through technical presentations and live demonstrations.
+- Discover practical applications of AI in software development and enterprise environments.
+- Strengthen technical knowledge while expanding professional connections within the AWS community.
 
-## Overview
+### Speakers
 
-This FCAJ Community Day brought together several community speakers with practical topics across cloud engineering, cybersecurity, DevOps, multiplayer systems, graph databases, and teamwork. The event was valuable because each session connected technology with a real use case instead of only explaining concepts in theory.
+The event featured presentations from experienced professionals, founders, and AWS community members.
 
-For me, this event felt like a bridge between technical knowledge and professional growth. Some sessions helped me understand AWS services and architecture patterns more clearly, while others focused on teamwork, career direction, and the mindset needed to keep improving in cloud and DevOps.
+**Steve Tran (Founder of CloudThinker.io)**
 
-## Main Sessions
+**Topic: "AgenticOps for Your Cloud"**
 
-- **Bảo Huỳnh - Docker: A Containerization Technology:** Introduced how containers package applications with their dependencies and why Docker is important for consistent development and deployment.
-- **Lê Hoàng Gia Đại - Combining AWS WAF with Machine Learning for Cyber Attack Detection on AWS:** Shared how AWS WAF can be combined with machine learning ideas to improve web security and detect suspicious traffic.
-- **Nguyễn Quốc Bảo - Multiplayer in the Cloud: Connecting Godot Clients with AWS WebSockets:** Explained how WebSocket-based communication can support realtime multiplayer features for game clients.
-- **Trương Phước - Effective Teamwork:** Shared practical lessons about collaboration, communication, responsibility, and how teams can work more smoothly.
-- **Việt Phát - AWS Neptune for Building a Graph Knowledge Base for GraphRAG:** Introduced Amazon Neptune and how graph databases can support knowledge relationships for GraphRAG systems.
-- **Vinh Trần - From IT Helpdesk to Senior Sysadmin: Self-Learning and the Path to Cloud/DevOps:** Shared a career journey and how continuous learning can support the transition from IT operations to cloud and DevOps roles.
+- Shared his journey from beginner to cloud entrepreneur.
+- Introduced AgenticOps concepts and microservices architecture.
+- Explained when to choose single-agent or multi-agent systems.
 
-## Key Learnings
+**Nghi Danh, Kiet Tran & Trung Vũ (Founder & CEO of Revve AI)**
 
-### Docker and Deployment Consistency
+**Topic: "Building Voice Agent at Scale"**
 
-Docker helps solve the common problem of "it works on my machine" by packaging the runtime, dependencies, and application together. This session helped me understand why containers are widely used in modern cloud projects and why they are important for CI/CD pipelines.
+- Introduced opportunities in the Voice AI industry.
+- Demonstrated how voice agents are designed and deployed.
+- Discussed common challenges and practical solutions for Voice AI systems.
 
-### Security with AWS WAF and Machine Learning
+**Nguyen Nguyen & Chị Bảo**
 
-The AWS WAF session showed that security should be proactive. Web applications need protection against common attacks, but detection can become stronger when logs, traffic patterns, and machine learning techniques are used together to identify abnormal behavior.
+**Topic: "AWS DevOps Agent"**
 
-### Realtime Multiplayer with AWS WebSockets
+- Introduced AWS DevOps Agent and its core capabilities.
+- Explained AI-powered DevOps automation and AWS integration.
+- Demonstrated deployment automation and infrastructure management.
 
-The WebSockets session connected directly with game development. I learned that realtime multiplayer systems need stable connections, low latency, and clear backend communication patterns. This topic is useful for understanding how cloud services can support online game features.
+**Trường & Chị Anh**
 
-### Teamwork and Professional Communication
+**Topic: "AI-Powered Productivity with Amazon Q"**
 
-The teamwork session reminded me that technical ability is only one part of project success. Clear communication, shared responsibility, trust, and regular feedback help a team avoid misunderstandings and deliver work more reliably.
+- Demonstrated Amazon Q features and real-world business applications.
+- Showed how Amazon Q improves productivity in HR and daily operations.
+- Shared practical implementation experiences.
 
-### GraphRAG and Amazon Neptune
+**Anh Toàn & Anh Nghi**
 
-The Neptune session helped me understand why graph databases are useful when data has many relationships. For GraphRAG, a graph knowledge base can make retrieval more contextual by connecting entities, concepts, and relationships instead of treating information as isolated documents.
+**Topic: "Building Secure Private MCP for Amazon Q"**
 
-### Cloud and DevOps Career Growth
+- Introduced the Model Context Protocol (MCP).
+- Demonstrated secure Amazon Q integration with private enterprise data.
+- Explained VPC-based architecture for secure AI applications.
 
-The career sharing session showed that moving into cloud and DevOps requires persistence. A strong foundation in systems, networking, Linux, automation, and self-learning can help someone grow from support roles into more advanced engineering positions.
+### Key Highlights
 
-## Personal Reflection
+### 1. "AgenticOps for Your Cloud" – Presented by Steve Tran
 
-This event was useful because it covered both technical depth and soft skills. I especially liked the WebSockets and Docker sessions because they relate to application deployment and realtime systems, which are relevant to my game and cloud learning path.
+- Learned the fundamentals of AgenticOps and cloud automation.
+- Understood the differences between single-agent and multi-agent architectures.
+- Recognized the importance of selecting the right architecture based on project complexity.
 
-The event also helped me see that cloud engineering is not only about knowing AWS services. It also requires understanding security, automation, data modeling, communication, and career planning. After this session, I became more motivated to organize my learning roadmap around practical projects instead of studying topics separately.
+### 2. "Building Voice Agent at Scale" – Presented by Nghi Danh, Kiet Tran & Trung Vũ
 
-## Practical Applications
+- Learned how modern Voice AI systems are designed and implemented.
+- Understood the opportunities and limitations of voice-based applications.
+- Gained practical knowledge about improving voice recognition and user experience.
 
-- Review Docker fundamentals and practice containerizing a simple application.
-- Study AWS WAF rules, logging, and how traffic data can support threat detection.
-- Explore WebSocket architecture for realtime multiplayer or chat systems.
-- Learn more about Amazon Neptune and how graph relationships can improve knowledge retrieval.
-- Apply teamwork principles in group projects, especially clearer task ownership and communication.
+### 3. "AWS DevOps Agent" – Presented by Nguyen Nguyen & Chị Bảo
 
-## Event Photos
+- Learned how AWS DevOps Agent automates deployment and infrastructure management.
+- Understood the advantages of AI-powered DevOps workflows.
+- Explored practical approaches to improving development efficiency.
 
-![Event 3 photo 1](/images/4-EventParticipated/event3/1783681915336_488790801746558625_6340294277924690580_ecd951e61753c20fb2d75d8e4b7bc081.jpg)
+### 4. "AI-Powered Productivity with Amazon Q" – Presented by Trường & Chị Anh
 
-![Event 3 photo 2](/images/4-EventParticipated/event3/1783683047875_488790801746558625_6340294277924690580_4edbeafc51cf1e1d26184c3e11bae178.jpg)
+- Discovered how Amazon Q can improve productivity across different business functions.
+- Learned practical use cases for HR automation, document management, and data analysis.
+- Understood the benefits of integrating AI into everyday workflows.
 
-![Event 3 photo 3](/images/4-EventParticipated/event3/1783683048090_488790801746558625_6340294277924690580_0e0f603f267ee4c749cdddeb15887956.jpg)
+### 5. "Building Secure Private MCP for Amazon Q" – Presented by Anh Toàn & Anh Nghi
 
-![Event 3 photo 4](/images/4-EventParticipated/event3/1783683048285_488790801746558625_6340294277924690580_334f993ee16b9cc91c4c1fe35a697291.jpg)
+- Learned the purpose and architecture of the Model Context Protocol (MCP).
+- Understood how Amazon Q securely connects to private enterprise resources.
+- Gained knowledge of VPC-based security and enterprise AI best practices.
 
-![Event 3 photo 5](/images/4-EventParticipated/event3/1783683048490_488790801746558625_6340294277924690580_4d1d3736b2fc26e165cccabb250fd93a.jpg)
+---
 
-![Event 3 photo 6](/images/4-EventParticipated/event3/1783683048646_488790801746558625_6340294277924690580_17fbc6b686cce2fd779fb3f6676cebf8.jpg)
+## Impact on My Internship
 
-![Event 3 photo 7](/images/4-EventParticipated/event3/1783683048793_488790801746558625_6340294277924690580_67a5e0f94cd7f2bc826e0d2b1865d114.jpg)
+- Expanded my understanding of AI agents, Voice AI, and DevOps automation.
+- Learned practical AWS solutions that can be applied to future cloud projects.
+- Improved my awareness of secure AI deployment in enterprise environments.
 
-![Event 3 photo 8](/images/4-EventParticipated/event3/1783683048896_488790801746558625_6340294277924690580_dde79d9ab54acf580e4567e43afdf50f.jpg)
+---
 
-![Event 3 photo 9](/images/4-EventParticipated/event3/1783683049106_488790801746558625_6340294277924690580_827bae059b0cdbefb678a05529de449b.jpg)
+## Community Engagement
 
-![Event 3 photo 10](/images/4-EventParticipated/event3/1783683049207_488790801746558625_6340294277924690580_329b2e1e9074f6dc2db1a936b770b090.jpg)
+- Connected with AWS experts, founders, and software engineers.
+- Exchanged ideas with other students and community members.
+- Expanded my professional network through technical discussions and networking activities.
 
-![Event 3 photo 11](/images/4-EventParticipated/event3/1783683049327_488790801746558625_6340294277924690580_812c7d451221a0b720d7f82f1e847aa4.jpg)
+---
+
+## Future Improvement Plan
+
+- Learn more about AgenticOps and multi-agent architectures.
+- Build small Voice AI and Amazon Q practice projects.
+- Improve my AWS DevOps knowledge through hands-on experience.
+- Continue studying enterprise AI security and MCP architecture.
+- Participate in more AWS community events and technical workshops.
+  ![overview](/images/4-Event/event3.jpg)
+  ![overview](/images/4-Event/event3.1.jpg)
+  ![overview](/images/4-Event/event3.2.jpg)
+  ![overview](/images/4-Event/event3.3.jpg)
+  ![overview](/images/4-Event/event3.4.jpg)

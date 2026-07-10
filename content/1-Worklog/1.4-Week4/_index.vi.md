@@ -1,100 +1,243 @@
 ---
 title: 'Worklog Tuần 4'
-date: 2026-05-14
-weight: 4
+date: 2026-05-11
+weight: 1
 chapter: false
 pre: ' <b> 1.4. </b> '
 ---
 
-{{% notice warning %}}
-**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, kể cả warning này.
-{{% /notice %}}
+### Mục tiêu Tuần 4:
 
-### Mục tiêu tuần 4:
+- Tạo ngân sách (Budget).
+- Tìm hiểu các dịch vụ AWS cơ bản, cách sử dụng AWS Console và AWS CLI.
 
-- Hoàn thành Lab 4: thực hành EC2 storage, EBS snapshot, custom AMI và kiểm tra IAM policy.
-- Hoàn thành Lab 5: triển khai Amazon RDS với subnet group, security group, EC2 access, snapshot và restore.
-- Ghi lại minh chứng hạ tầng cho EC2, EBS, AMI, IAM, VPC và RDS resources.
+### Các công việc thực hiện trong tuần:
 
-### Các công việc cần triển khai trong tuần này:
+| Ngày | Công việc                                                                                                                                                                                                                                                                                                              | Ngày bắt đầu | Ngày hoàn thành | Trạng thái |
+| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ---------- |
+| 2    | - Tạo Budget <br> - Tạo Cost Budget <br> - Tạo Usage Budget                                                                                                                                                                                                                                                            | 11/05/2026   | 11/05/2026      | Hoàn thành |
+| 3    | - Tạo RI Budget <br> - Tạo Savings Plans Budget                                                                                                                                                                                                                                                                        | 12/05/2026   | 12/05/2026      | Hoàn thành |
+| 4    | - Đọc phần giới thiệu <br> - Thực hiện các bước chuẩn bị                                                                                                                                                                                                                                                               | 12/05/2026   | 12/05/2026      | Hoàn thành |
+| 5    | - Tìm hiểu cơ bản về CloudWatch Metrics: <br>&emsp; + Xem Metrics <br>&emsp; + Search Expressions <br>&emsp; + Mathematical Expressions <br>&emsp; + Dynamic Labels <br> - Tìm hiểu cơ bản về CloudWatch Logs <br>&emsp; + CloudWatch Logs <br>&emsp; + CloudWatch Logs Insights <br>&emsp; + CloudWatch Metric Filter | 13/05/2026   | 13/05/2026      | Hoàn thành |
+| 6    | - CloudWatch Alarms <br> - CloudWatch Dashboards                                                                                                                                                                                                                                                                       | 14/05/2026   | 14/05/2026      | Hoàn thành |
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Trạng thái |
-| --- | --------- | ------------ | --------------- | ---------- |
-| 2 | - Lab 4: kiểm tra CloudShell, VPC, subnets, security groups và EC2 instances. | 11/05/2026 | 11/05/2026 | Hoàn thành |
-| 3 | - Lab 4: kiểm tra EBS volumes, tạo snapshots, tạo custom AMI và xem lại IAM group/user/policy. | 12/05/2026 | 12/05/2026 | Hoàn thành |
-| 4 | - Lab 5: chuẩn bị VPC, public subnet, DB subnets, EC2 security group và RDS security group. | 13/05/2026 | 13/05/2026 | Hoàn thành |
-| 5 | - Lab 5: tạo DB subnet group, khởi tạo EC2 instance và triển khai Amazon RDS database. | 14/05/2026 | 14/05/2026 | Hoàn thành |
-| 6 | - Lab 5: kiểm tra database snapshot, restore workflow và kết quả connection test. | 15/05/2026 | 15/05/2026 | Hoàn thành |
+### Kết quả đạt được trong Tuần 4:
 
-### Kết quả đạt được tuần 4:
+## Bước 1: Tạo Budget
 
-### Lab 4:
+- Tìm và mở dịch vụ **AWS Billing and Cost Management**.
+- Chọn **Budgets** → **Create budget**.
 
-- Kiểm tra VPC, subnet, security group và danh sách EC2 từ AWS Console/CloudShell.
-- Kiểm tra EBS volumes và EBS snapshots cho quản lý storage của EC2.
-- Tạo hoặc xác nhận custom AMI từ EC2 instance.
-- Kiểm tra minh chứng IAM group, user và policy cho phần access control.
+## Bước 2: Tạo Cost Budget
 
-### Lab 5:
+- Mở dịch vụ **AWS Billing and Cost Management**.
+- Chọn **Budgets** → **Create budget**.
+- Trong phần **Budget setup**:
+  - Chọn **Customize**.
+  - Trong **Budget types**, chọn **Cost budget**.
 
-- Chuẩn bị networking resources cho triển khai Amazon RDS.
-- Tạo DB subnet group và security group rules cho database access.
-- Khởi tạo EC2 và Amazon RDS để kiểm tra kết nối database.
-- Xác nhận snapshot/restore workflow của RDS và kết quả test cuối cùng.
+## Bước 3: Tạo RI Budget
 
-### Hình ảnh minh chứng lab:
+- Thực hiện tương tự bước 2.
+- Trong **Budget setup**:
+  - Chọn **Customize**.
+  - Chọn **Reservation budget**.
 
-#### aws-lab-000004 - EC2 storage, custom AMI và kiểm tra IAM policy (12 ảnh)
+## Bước 4: Tạo Savings Plans Budget
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/00-cloudshell-current.png" alt="aws-lab-000004 - 00-cloudshell-current" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+- Thực hiện tương tự bước 2.
+- Trong **Budget setup**:
+  - Chọn **Customize**.
+  - Trong **Budget types**, chọn **Savings Plans budget**.
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/02-vpc-list.png" alt="aws-lab-000004 - 02-vpc-list" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+## Bước 5: CloudWatch Metrics + CloudWatch Logs + CloudWatch Alarms + CloudWatch Dashboards
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/03-subnets.png" alt="aws-lab-000004 - 03-subnets" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+![alt text](image.png)
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/04-security-groups.png" alt="aws-lab-000004 - 04-security-groups" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+## 1. CloudWatch Metrics
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/05-ec2-instances.png" alt="aws-lab-000004 - 05-ec2-instances" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+### Các bước thực hiện
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/06-ebs-volumes.png" alt="aws-lab-000004 - 06-ebs-volumes" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+- Tìm kiếm và mở dịch vụ CloudWatch.
+- Trong thanh điều hướng bên trái, chọn **Metrics > All metrics**.
+- Tìm kiếm các chỉ số của EC2.
+- Mở **EC2 > Per-Instance Metrics**.
+- Lọc chỉ số **CPUUtilization**.
+- Chọn hai phiên bản EC2 để so sánh hiệu suất CPU.
+- Quan sát hoạt động tải công việc trên biểu đồ.
+- Tìm kiếm **EBSWriteBytes** để phân tích hoạt động ghi dữ liệu của ổ đĩa.
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/07-ebs-snapshots.png" alt="aws-lab-000004 - 07-ebs-snapshots" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+### Kết quả
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/08-custom-ami.png" alt="aws-lab-000004 - 08-custom-ami" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+Đã quan sát và so sánh được hiệu suất CPU giữa các EC2 instance, đồng thời theo dõi hoạt động lưu trữ thông qua chỉ số EBSWriteBytes.
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/09-iam-policies.png" alt="aws-lab-000004 - 09-iam-policies" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+---
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/15-cleanup-ec2-empty.png" alt="aws-lab-000004 - 15-cleanup-ec2-empty" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+## 2. Search Expressions
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/16-cleanup-vpc-empty.png" alt="aws-lab-000004 - 16-cleanup-vpc-empty" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+### Các bước thực hiện
 
-<img src="/images/1-Worklog/labs/aws-lab-000004/screenshots-ui/17-cleanup-ami-snapshot-empty.png" alt="aws-lab-000004 - 17-cleanup-ami-snapshot-empty" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+1. Xóa biểu đồ cũ.
+2. Quay lại tab **Browse**.
+3. Thêm chỉ số **CPUUtilization**.
+4. Chọn **Graph search**.
+5. Thêm các biểu thức tìm kiếm như:
+   - SEARCH("disk_used_percent", 'Average', 300)
+   - SEARCH("used", 'Average', 300)
 
-#### aws-lab-000005 - Triển khai Amazon RDS, snapshot và restore (13 ảnh)
+6. Chuyển kiểu biểu đồ sang **Stacked area**.
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/00-cdp-test.png" alt="aws-lab-000005 - 00-cdp-test" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+### Kết quả
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/01-vpc-details.png" alt="aws-lab-000005 - 01-vpc-details" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+Search Expressions giúp tìm kiếm các chỉ số nhanh hơn và cải thiện khả năng theo dõi nhiều metrics trên cùng một biểu đồ.
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/02-public-subnet.png" alt="aws-lab-000005 - 02-public-subnet" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+---
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/03-db-subnet-az1.png" alt="aws-lab-000005 - 03-db-subnet-az1" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+## 3. Mathematical Expressions
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/04-ec2-security-group.png" alt="aws-lab-000005 - 04-ec2-security-group" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+### Các bước thực hiện
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/05-rds-security-group.png" alt="aws-lab-000005 - 05-rds-security-group" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+1. Xóa các biểu thức trước đó.
+2. Quay lại tab **Browse**.
+3. Chọn **Add math**.
+4. Chọn **Top 10 by sum**.
+5. Áp dụng biểu thức:
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/06-db-subnet-group.png" alt="aws-lab-000005 - 06-db-subnet-group" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+   SORT(e1, SUM, DEC, 3)
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/07-ec2-instance.png" alt="aws-lab-000005 - 07-ec2-instance" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+### Kết quả
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/08-rds-databases-list.png" alt="aws-lab-000005 - 08-rds-databases-list" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+Biểu đồ tự động sắp xếp các metrics theo tổng giá trị, giúp dễ dàng xác định những tài nguyên có mức hoạt động cao nhất.
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/09-rds-original-detail.png" alt="aws-lab-000005 - 09-rds-original-detail" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+---
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/10-app-page.png" alt="aws-lab-000005 - 10-app-page" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+## 4. Dynamic Labels
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/11-rds-snapshot.png" alt="aws-lab-000005 - 11-rds-snapshot" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+### Các bước thực hiện
 
-<img src="/images/1-Worklog/labs/aws-lab-000005/screenshots-ui/12-rds-restore-detail.png" alt="aws-lab-000005 - 12-rds-restore-detail" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
+1. Xóa các bộ lọc và biểu thức trước đó.
+2. Mở namespace **CWAgent**.
+3. Chọn các dimensions:
+   - ImageId
+   - InstanceId
+   - InstanceType
+   - exe
+   - process_name
 
+4. Lọc theo:
+   - exe=cloudwatch
+   - MetricName=procstat_memory_rss
+
+5. Chọn **Graph search**.
+6. Thêm Dynamic Labels bằng:
+
+   ${PROP('Dim.exe')} - ${PROP('Dim.InstanceId')} - ${PROP('MetricName')}
+
+### Kết quả
+
+Dynamic Labels tự động cập nhật tên hiển thị của biểu đồ, giúp dễ dàng nhận biết các metrics.
+
+---
+
+## 5. CloudWatch Logs
+
+### Các bước thực hiện
+
+1. Mở giao diện CloudWatch.
+2. Chọn **Logs > Log groups**.
+3. Tìm kiếm **/ec2/linux/var/log/messages**.
+4. Mở một Log Stream của EC2.
+5. Xem các bản ghi hệ thống.
+6. Thiết lập thời gian lưu trữ log là **1 tuần**.
+
+### Kết quả
+
+CloudWatch Logs lưu trữ và quản lý các log hệ thống của EC2, hỗ trợ việc giám sát và xử lý sự cố.
+
+---
+
+## 6. CloudWatch Logs Insights
+
+### Các bước thực hiện
+
+1. Mở EC2 Console.
+2. Kết nối tới EC2 bằng **Session Manager**.
+3. Tải xuống và chạy tập lệnh **logger.py**.
+4. Theo dõi log bằng lệnh:
+
+   sudo tail -f /var/log/messages
+
+5. Mở **CloudWatch Logs Insights**.
+6. Thực hiện các truy vấn như:
+   - ERROR logs
+   - WARN logs
+   - eth0 logs
+
+7. Trực quan hóa kết quả truy vấn.
+8. Lưu các truy vấn để sử dụng sau.
+
+### Kết quả
+
+CloudWatch Logs Insights hỗ trợ tìm kiếm, lọc và trực quan hóa dữ liệu log, giúp giám sát ứng dụng hiệu quả hơn.
+
+---
+
+## 7. CloudWatch Metric Filter
+
+### Các bước thực hiện
+
+1. Mở Log Group **/ec2/linux/var/log/messages**.
+2. Chọn **Create metric filter**.
+3. Sử dụng **ERROR** làm mẫu lọc.
+4. Cấu hình:
+   - Metric namespace: ec2-logs
+   - Metric name: /var/log/messages - ERROR
+   - Metric value: 1
+
+5. Tạo Metric Filter.
+
+### Kết quả
+
+Metric Filter chuyển các sự kiện ERROR trong log thành CloudWatch Metrics để phục vụ việc giám sát.
+
+---
+
+## 8. CloudWatch Alarms
+
+### Các bước thực hiện
+
+1. Mở **CloudWatch Alarms**.
+2. Chọn **Create alarm**.
+3. Chọn chỉ số ERROR đã tạo.
+4. Cấu hình:
+   - Chu kỳ: 1 phút
+   - Ngưỡng: Lớn hơn 10
+
+5. Tạo SNS Topic để gửi thông báo qua email.
+6. Đặt tên cảnh báo là **PythonApplicationErrorAlarm**.
+7. Xác nhận đăng ký SNS qua email.
+
+### Kết quả
+
+CloudWatch Alarm giám sát số lượng lỗi của ứng dụng và tự động gửi thông báo khi vượt ngưỡng đã thiết lập.
+
+---
+
+## 9. CloudWatch Dashboard
+
+### Các bước thực hiện
+
+1. Chọn Alarm đã tạo.
+2. Chọn **Add to dashboard**.
+3. Tạo Dashboard với tên **CloudWatch-Workshop**.
+4. Thêm các widget hiển thị Alarm vào Dashboard.
+
+### Kết quả
+
+Dashboard cung cấp giao diện tập trung để theo dõi các metrics và cảnh báo của hệ thống.
+
+---
+
+## Kết luận
+
+Trong tuần này, tôi đã học cách sử dụng Amazon CloudWatch để giám sát các tài nguyên AWS, phân tích log, tạo cảnh báo và xây dựng Dashboard theo dõi hệ thống. Bài thực hành giúp tôi có thêm kinh nghiệm thực tế trong việc trực quan hóa dữ liệu, phân tích log và triển khai cơ chế giám sát tự động trên AWS.

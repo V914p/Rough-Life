@@ -1,4 +1,3 @@
-````markdown
 ---
 title: 'Worklog Tuần 2'
 date: 2026-04-27
@@ -39,10 +38,6 @@ pre: '<b>1.2.</b>'
 
 - Gắn chính sách được quản lý sau:
 - `AdministratorAccess`
-
-> **Lưu ý:** Quyền này phù hợp cho mục đích học tập và phát triển. Trong môi trường thực tế, nên luôn tuân theo **Nguyên tắc Đặc quyền Tối thiểu (Principle of Least Privilege)**.
-
-👉 **Lưu ý:** Trong môi trường production, nên áp dụng **Principle of Least Privilege**.
 
 ---
 

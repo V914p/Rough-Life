@@ -1,140 +1,61 @@
 ---
 title: 'Worklog Tuần 8'
 date: 2026-06-14
-weight: 8
+weight: 1
 chapter: false
 pre: ' <b> 1.8. </b> '
 ---
 
-{{% notice warning %}}
-**Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn, kể cả warning này.
-{{% /notice %}}
 
 ### Mục tiêu tuần 8:
 
-- Hoàn thành Lab 15: triển khai ứng dụng Docker với VPC, RDS, ECR và EC2.
-- Hoàn thành Lab 28: thực hành quản lý IAM policy, MFA trust policy, chuyển role và kiểm tra quyền EC2.
-- Ghi lại hình ảnh minh chứng triển khai và dọn dẹp tài nguyên cho cả hai lab.
+- Lab 11
+- Lab 13
+- Lab 28
 
 ### Các công việc cần triển khai trong tuần này:
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Trạng thái |
-| --- | --------- | ------------ | --------------- | ---------- |
-| 2 | - Lab 15: tạo VPC, subnet, security group và IAM role cho môi trường triển khai. <br> - Chuẩn bị ECR repositories cho frontend và backend container images. | 08/06/2026 | 08/06/2026 | Hoàn thành |
-| 3 | - Lab 15: tạo và cấu hình Amazon RDS. <br> - Khởi tạo EC2 instance và key pair để chạy ứng dụng Docker. | 09/06/2026 | 09/06/2026 | Hoàn thành |
-| 4 | - Lab 15: build và chạy Docker frontend/backend. <br> - Push frontend và backend images lên Amazon ECR. | 10/06/2026 | 10/06/2026 | Hoàn thành |
-| 5 | - Lab 15: kiểm tra ứng dụng đã triển khai. <br> - Dọn dẹp EC2, RDS, ECR, security group, IAM role và VPC resources. | 11/06/2026 | 11/06/2026 | Hoàn thành |
-| 6 | - Lab 28: tạo IAM admin group, IAM user, custom policies và IAM role. <br> - Cấu hình trust policy có yêu cầu MFA. | 12/06/2026 | 12/06/2026 | Hoàn thành |
-| 7 | - Lab 28: kiểm tra quyền EC2, tag và luồng switch role. <br> - Dọn dẹp EC2 instance, IAM role, policies, user và group. | 13/06/2026 | 13/06/2026 | Hoàn thành |
+| Thứ | Công việc                                                                                                                                                                                                                                                                                            | Ngày bắt đầu | Ngày hoàn thành | Trạng thái |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ---------- |
+| 2   | - Cài đặt AWS CLI <br> - Xem tài nguyên bằng CLI <br> - Sử dụng AWS CLI với Amazon S3 <br> - Sử dụng AWS CLI với Amazon SNS <br> - Sử dụng AWS CLI với IAM                                                                                                                                           | 06/08/2026   | 06/08/2026      | Done       |
+| 3   | - AWS CLI với VPC <br>&emsp; + Quản lý VPC bằng AWS CLI <br>&emsp; + Quản lý Internet Gateway bằng AWS CLI <br> - Tạo EC2 bằng AWS CLI<br> - Khắc phục sự cố (Troubleshooting)                                                                                                                       | 06/09/2026   | 06/09/2026      | Done       |
+| 4   | - Chuẩn bị <br>&emsp; + Tạo S3 Bucket <br>&emsp; + Triển khai hạ tầng <br> - Tạo Backup Plan                                                                                                                                                                                                         | 06/10/2026   | 06/10/2026      | Done       |
+| 5   | - Thiết lập thông báo (Notifications) <br> - Kiểm tra khôi phục dữ liệu (Test Restore)                                                                                                                                                                                                               | 06/11/2026   | 06/11/2026      | Done       |
+| 6   | - Tạo IAM User <br> - Tạo IAM Policy <br> - Tạo IAM Role <br> -Kiểm tra Policy <br> &emsp; + Chuyển đổi Role (Switch Roles) <br> &emsp; + Kiểm tra IAM Policy <br> - **Thực hành:** <br>&emsp; + Truy cập EC2 Console tại khu vực Tokyo <br>&emsp; + Truy cập EC2 Console tại khu vực North Virginia | 06/12/2026   | 06/12/2026      | Done       |
+| 7   | - **Thực hành:** <br>&emsp; + Tạo EC2 Instance khi không có hoặc có Tag hợp lệ <br>&emsp; + Chỉnh sửa Resource Tag trên EC2 Instance <br>&emsp; + Kiểm tra Policy                                                                                                                                    | 06/13/2026   | 06/13/2026      | Done       |
 
 ### Kết quả đạt được tuần 8:
 
-### Lab 15:
+### Lab 11:
 
-- Tạo VPC, subnet, security group và IAM role cho môi trường ứng dụng Docker.
-- Tạo Amazon ECR repositories cho frontend và backend container images.
-- Cấu hình Amazon RDS và EC2 để phục vụ triển khai ứng dụng.
-- Build, chạy và kiểm tra Docker frontend/backend services.
-- Push container images lên Amazon ECR.
-- Dọn dẹp EC2, RDS, ECR, security group, IAM role và VPC resources sau khi hoàn tất lab.
+- Cài đặt AWS CLI và tạo, quản lý các profile.
+- Xem và kiểm tra các EC2 Instance và S3 Bucket.
+- Học cách tạo, liệt kê và xóa Bucket cũng như các đối tượng trong S3 bằng AWS CLI.
+- Làm quen với AWS CLI thông qua dịch vụ SNS.
+- Tạo IAM Group, IAM User và IAM Policy bằng CLI.
+- Tạo VPC bằng CLI.
+- Học cách tạo và quản lý Internet Gateway trên AWS.
+- Tạo Security Group cho EC2.
+
+### Lab 13:
+
+- Tạo S3 Bucket.
+- Sử dụng AWS Backup để tạo kế hoạch sao lưu (Backup Plan) cho các tài nguyên đang chạy trên AWS.
+- Thực hiện sao lưu bằng AWS Backup với chế độ quản lý toàn diện, cho phép tự động sao lưu dữ liệu từ nhiều nguồn như EC2, EBS,...
+- Thiết lập thông báo trên nền tảng đám mây.
+- Sử dụng AWS Lambda để tự động kiểm tra khả năng khôi phục thành công của các bản sao lưu và dọn dẹp tài nguyên.
 
 ### Lab 28:
 
-- Tạo IAM admin group và IAM user để thực hành quản lý truy cập.
-- Tạo và kiểm tra IAM policies cho quyền EC2 và kiểm soát theo tag.
-- Cấu hình IAM role permissions và trust policy có điều kiện MFA.
-- Kiểm tra tạo EC2 instance, instance tags và luồng switch role.
-- Dọn dẹp EC2, IAM role, policies, user và group sau khi kiểm tra.
+- Tạo 4 IAM Policy gồm:
 
-### Hình ảnh minh chứng lab:
+* ec2-create-tags-existing
+* ec2-list-read
+* ec2-create-tags
+* ec2-run-instances
 
-#### aws-lab-000015 - Triển khai Docker app với VPC, RDS, ECR và EC2 (22 ảnh)
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/02-vpc-created-ui.png" alt="aws-lab-000015 - 02-vpc-created-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/03-subnets-created-ui.png" alt="aws-lab-000015 - 03-subnets-created-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/04-security-groups-created-ui.png" alt="aws-lab-000015 - 04-security-groups-created-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/05-iam-role-ecr-ui.png" alt="aws-lab-000015 - 05-iam-role-ecr-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/06b-ecr-repositories-ui.png" alt="aws-lab-000015 - 06b-ecr-repositories-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/06-ecr-repositories-ui.png" alt="aws-lab-000015 - 06-ecr-repositories-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/07b-rds-available-ui.png" alt="aws-lab-000015 - 07b-rds-available-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/07-rds-creating-ui.png" alt="aws-lab-000015 - 07-rds-creating-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/08b-ec2-instance-detail-ui.png" alt="aws-lab-000015 - 08b-ec2-instance-detail-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/08-ec2-instance-ui.png" alt="aws-lab-000015 - 08-ec2-instance-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/09-key-pair-ui.png" alt="aws-lab-000015 - 09-key-pair-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/10b-docker-frontend-app-ui.png" alt="aws-lab-000015 - 10b-docker-frontend-app-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/11b-docker-backend-api-ui.png" alt="aws-lab-000015 - 11b-docker-backend-api-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/13b-ecr-frontend-image-ui.png" alt="aws-lab-000015 - 13b-ecr-frontend-image-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/13-ecr-frontend-image-ui.png" alt="aws-lab-000015 - 13-ecr-frontend-image-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/14-ecr-backend-image-ui.png" alt="aws-lab-000015 - 14-ecr-backend-image-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/16-cleanup-vpc-no-match-ui.png" alt="aws-lab-000015 - 16-cleanup-vpc-no-match-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/17-cleanup-rds-no-db-ui.png" alt="aws-lab-000015 - 17-cleanup-rds-no-db-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/18-cleanup-ecr-no-repos-ui.png" alt="aws-lab-000015 - 18-cleanup-ecr-no-repos-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/19-cleanup-security-groups-no-match-ui.png" alt="aws-lab-000015 - 19-cleanup-security-groups-no-match-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/20-cleanup-iam-role-not-found-ui.png" alt="aws-lab-000015 - 20-cleanup-iam-role-not-found-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000015/21-cleanup-ec2-no-active-ui.png" alt="aws-lab-000015 - 21-cleanup-ec2-no-active-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-#### aws-lab-000028 - Quản lý IAM policy, MFA và role switching (21 ảnh)
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/02-iam-admin-group-ui.png" alt="aws-lab-000028 - 02-iam-admin-group-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/03-iam-admin-user-ui.png" alt="aws-lab-000028 - 03-iam-admin-user-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/04-iam-policies-list-ui.png" alt="aws-lab-000028 - 04-iam-policies-list-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/05-iam-role-permissions-ui.png" alt="aws-lab-000028 - 05-iam-role-permissions-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/06b-iam-role-trust-mfa-ui.png" alt="aws-lab-000028 - 06b-iam-role-trust-mfa-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/06c-iam-role-trust-mfa-ui.png" alt="aws-lab-000028 - 06c-iam-role-trust-mfa-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/06d-iam-role-trust-mfa-ui.png" alt="aws-lab-000028 - 06d-iam-role-trust-mfa-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/06-iam-role-trust-mfa-ui.png" alt="aws-lab-000028 - 06-iam-role-trust-mfa-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/07b-policy-run-instances-ui.png" alt="aws-lab-000028 - 07b-policy-run-instances-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/07c-policy-run-instances-json-ui.png" alt="aws-lab-000028 - 07c-policy-run-instances-json-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/07-policy-run-instances-ui.png" alt="aws-lab-000028 - 07-policy-run-instances-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/08-ec2-example-instance-ui.png" alt="aws-lab-000028 - 08-ec2-example-instance-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/09d-ec2-tags-ui.png" alt="aws-lab-000028 - 09d-ec2-tags-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/09-ec2-example-detail-ui.png" alt="aws-lab-000028 - 09-ec2-example-detail-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/10b-switch-role-result-ui.png" alt="aws-lab-000028 - 10b-switch-role-result-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/10-switch-role-page-ui.png" alt="aws-lab-000028 - 10-switch-role-page-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/12-cleanup-ec2-example-terminated-ui.png" alt="aws-lab-000028 - 12-cleanup-ec2-example-terminated-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/13-cleanup-role-not-found-ui.png" alt="aws-lab-000028 - 13-cleanup-role-not-found-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/14-cleanup-policy-not-found-ui.png" alt="aws-lab-000028 - 14-cleanup-policy-not-found-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/15-cleanup-user-not-found-ui.png" alt="aws-lab-000028 - 15-cleanup-user-not-found-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
-<img src="/images/1-Worklog/labs/aws-lab-000028/16-cleanup-group-not-found-ui.png" alt="aws-lab-000028 - 16-cleanup-group-not-found-ui" loading="lazy" style="max-width: 100%; height: auto; margin: 12px 0; display: block;" />
-
+- Tạo IAM Role.
+- Kiểm tra quyền truy cập tại khu vực Tokyo và North Virginia.
+- Tạo EC2 Instance khi không có hoặc có Tag hợp lệ.
+- Chỉnh sửa Resource Tag trên EC2 Instance.
+- Kiểm tra và xác thực Policy.

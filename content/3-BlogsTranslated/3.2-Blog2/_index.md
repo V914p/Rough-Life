@@ -1,10 +1,11 @@
 ﻿---
-title: "Blog 2 - GameLift game sessions and CloudWatch logs"
+title: 'Blog 2 - GameLift game sessions and CloudWatch logs'
 date: 2026-06-30
 weight: 2
 chapter: false
-pre: " <b> 3.2. </b> "
+pre: ' <b> 3.2. </b> '
 ---
+
 {{% notice warning %}}
 **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
 {{% /notice %}}
@@ -15,13 +16,13 @@ Facebook source: [AWS Study Group Facebook permalink 2198027240962236](https://w
 
 Original AWS blog: [Host persistent world games on Amazon GameLift Servers](https://aws.amazon.com/blogs/gametech/host-persistent-world-games-on-amazon-gamelift-servers/)
 
-![Active GameLift game session](/images/3-blogstranslated/731787736_1803852380595770_7260352658525805355_n.jpg)
+![Active GameLift game session](</images/3-blogstranslated/blog2 (1).jpg>)
 
-![Terminate game session dialog](/images/3-blogstranslated/733756954_1803852333929108_7167563714267557677_n.jpg)
+![Terminate game session dialog](</images/3-blogstranslated/blog2 (2).jpg>)
 
-![CloudWatch GameLift log group](/images/3-blogstranslated/731787739_1803852490595759_4367995617558889048_n.jpg)
+![CloudWatch GameLift log group](</images/3-blogstranslated/blog2 (3).jpg>)
 
-![CloudWatch log streams](/images/3-blogstranslated/731761336_1803852443929097_2885424837124105651_n.jpg)
+![CloudWatch log streams](</images/3-blogstranslated/blog2 (4).jpg>)
 
 ## Overview
 
@@ -49,4 +50,3 @@ GameLift can publish server logs to Amazon CloudWatch. The developer can find th
 ## Application to RoughLife
 
 For RoughLife, these steps should be part of the test checklist. Each server build should be validated by creating a game session, connecting a Unity client, checking logs, and shutting the session down normally. This reduces uncertainty before adding more complex gameplay logic.
-
