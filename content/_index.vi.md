@@ -21,7 +21,7 @@ chapter: false
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
-&emsp; **Vị trí thực tập:** FCJ Cloud Intern
+&emsp; **Vị trí thực tập:** First Cloud AI Journey
 
 &emsp; **Thời gian thực tập:** Từ ngày 12/04/2026 đến ngày 12/07/2026
 
