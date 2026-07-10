@@ -6,9 +6,6 @@ chapter: false
 pre: ' <b> 1.4. </b> '
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 ### Week 4 Objectives:
 
@@ -41,7 +38,7 @@ pre: ' <b> 1.4. </b> '
 * Select **Customize**
 * Under **Budget types**, select **Cost budget**
 
-- Then follow the setup steps -> **Create budget** to complete.
+
 
 ## Step 3: Create RI Budget
 
@@ -51,7 +48,7 @@ pre: ' <b> 1.4. </b> '
 * Select **Customize**
 * Select **Reservation budget**
 
-- Then follow the setup steps -> **Create budget** to complete.
+
 
 ## Step 4: Create Savings Plans Budget
 
@@ -61,7 +58,7 @@ pre: ' <b> 1.4. </b> '
 * Select **Customize**
 * Under **Budget types**, select **Savings Plans budget**
 
-- Then follow the setup steps ->**Create budget** to complete.
+
 
 ## Step 5: CloudWatch Metrics + CloudWatch Logs + CloudWatch Alarms + CloudWatch Dashboards
 

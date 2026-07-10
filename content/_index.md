@@ -19,19 +19,19 @@ chapter: false
 
 &emsp; **Email:** letran237123@gmail.com
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **University:** HUTECH University of Technology
 
-&emsp; **Major:** Information Technology
+&emsp; **Major:** Software Engineering
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** 22DTHD7
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
 &emsp; **Internship Position:** FCJ Cloud Intern
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Duration:** From April 17, 2026 to July 10, 2026
 
-![Your profile picture](/images/avatar.png)
+![Your profile picture](/images/AnhDaiDien.jpg)
 
 ### Report Content
 

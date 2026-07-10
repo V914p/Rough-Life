@@ -1,125 +1,103 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: 'Sự kiện 1'
+date: 2026-05-09
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: ' <b> 4.1. </b> '
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Báo cáo tóm tắt: “AWS Study Group Workshop - AI trong Vòng đời Phát triển Phần mềm”
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+### Mục tiêu của sự kiện
 
-### Mục Đích Của Sự Kiện
+- Chia sẻ kinh nghiệm thực tế trong việc tổ chức và triển khai các workshop kỹ thuật về AWS.
+- Giới thiệu các công nghệ AWS và những phương pháp thực hành tốt được áp dụng trong các dự án thực tế.
+- Minh họa cách các công cụ AI có thể hỗ trợ ở nhiều giai đoạn khác nhau của vòng đời phát triển phần mềm.
+- Cung cấp định hướng nghề nghiệp và lời khuyên về phát triển chuyên môn cho sinh viên và lập trình viên mới.
+- Khuyến khích giao lưu, kết nối và chia sẻ kiến thức trong cộng đồng AWS Study Group.
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+### Diễn giả
 
-### Danh Sách Diễn Giả
+Workshop có sự tham gia chia sẻ của các thành viên giàu kinh nghiệm thuộc cộng đồng AWS Study Group:
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+**Anh Long (Admin)**
 
-### Nội Dung Nổi Bật
+**Chủ đề: "Làm thế nào để nghiện học tập như nghiện mạng xã hội"**
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+- Giới thiệu các phương pháp xây dựng thói quen học tập bền vững.
+- Giải thích cách duy trì động lực và giúp việc học trở nên thú vị hơn.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+**Anh Thịnh (Admin)**
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+**Chủ đề: "Prompt Engineering Tự động: Nâng cao chất lượng đầu ra của Mô hình Ngôn ngữ Lớn (LLM)"**
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+- Giải thích các kỹ thuật xây dựng prompt hiệu quả hơn.
+- Minh họa cách cải thiện chất lượng và tính nhất quán của nội dung do AI tạo ra.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+**Anh Khang (Admin)**
 
-#### Domain-Driven Design (DDD)
+**Chủ đề: "Tại sao bạn vẫn chưa bắt đầu đi làm?"**
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+- Phân tích những khó khăn phổ biến mà sinh viên và người mới tốt nghiệp thường gặp khi tìm việc.
+- Chia sẻ những lời khuyên để chuẩn bị cho môi trường làm việc chuyên nghiệp trong ngành công nghệ.
 
-#### Event-Driven Architecture
+**Diễn giả khách mời (Kỹ sư Phát triển Phần mềm)**
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+**Chủ đề: "BMAD" (Xây dựng, Đo lường, Phân tích, Triển khai)**
 
-#### Compute Evolution
+- Giới thiệu quy trình phát triển phần mềm theo mô hình BMAD.
+- Giải thích vai trò của việc đo lường và phân tích trong quá trình cải tiến phần mềm.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+### Những nội dung nổi bật
 
-#### Amazon Q Developer
+### 1. "Làm thế nào để nghiện học tập như nghiện mạng xã hội" – Trình bày bởi Anh Long (Admin)
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+- Học được cách xây dựng thói quen học tập đều đặn thông qua các mục tiêu nhỏ mỗi ngày.
+- Hiểu rằng tính kỷ luật quan trọng hơn động lực nhất thời.
+- Có thêm ý tưởng để cải thiện kế hoạch học tập cá nhân.
 
-### Những Gì Học Được
+### 2. "Prompt Engineering Tự động: Nâng cao chất lượng đầu ra của Mô hình Ngôn ngữ Lớn (LLM)" – Trình bày bởi Anh Thịnh (Admin)
 
-#### Tư Duy Thiết Kế
+- Học được những kiến thức cơ bản về Prompt Engineering cho các mô hình ngôn ngữ lớn.
+- Hiểu cách xây dựng prompt hiệu quả để nâng cao chất lượng phản hồi của AI.
+- Khám phá các phương pháp ứng dụng AI hiệu quả hơn trong quá trình phát triển phần mềm.
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+### 3. "Tại sao bạn vẫn chưa bắt đầu đi làm?" – Trình bày bởi Anh Khang (Admin)
 
-#### Kiến Trúc Kỹ Thuật
+- Hiểu rõ khoảng cách giữa kiến thức học tập và yêu cầu thực tế của doanh nghiệp.
+- Nhận thức được tầm quan trọng của kinh nghiệm thực tế, kỹ năng giao tiếp và việc học tập liên tục.
+- Xác định được những kỹ năng và tư duy cần thiết để sẵn sàng cho công việc trong tương lai.
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+### 4. "BMAD (Xây dựng, Đo lường, Phân tích, Triển khai)" – Trình bày bởi Diễn giả khách mời
 
-#### Chiến Lược Hiện Đại Hóa
+- Học được quy trình cơ bản của phương pháp phát triển phần mềm BMAD.
+- Hiểu được tầm quan trọng của việc đo lường và phân tích hiệu quả phần mềm.
+- Nhận thức được giá trị của việc cải tiến liên tục trong suốt quá trình phát triển sản phẩm.
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+---
 
-### Ứng Dụng Vào Công Việc
+## Ảnh hưởng đến quá trình thực tập
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- Áp dụng các phương pháp học tập mới để nâng cao hiệu quả trong quá trình thực tập.
+- Hiểu rõ hơn cách các công cụ AI như Kiro có thể hỗ trợ quá trình phát triển phần mềm.
+- Nhận thức được tầm quan trọng của việc kết hợp giữa kiến thức chuyên môn và các kỹ năng nghề nghiệp.
 
-### Trải nghiệm trong event
+---
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+## Hoạt động giao lưu và kết nối
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+- Kết nối với các quản trị viên và thành viên của cộng đồng AWS Study Group.
+- Gặp gỡ các thực tập sinh và những người học AWS có cùng sở thích.
+- Chia sẻ kinh nghiệm và thảo luận về các cơ hội học tập trong tương lai.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+---
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+## Kế hoạch phát triển trong tương lai
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
-
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+- Duy trì lịch học tập đều đặn và nhất quán.
+- Thực hành Prompt Engineering khi sử dụng các công cụ AI hỗ trợ phát triển phần mềm.
+- Xây dựng thêm nhiều dự án thực tế để nâng cao kỹ năng chuyên môn.
+- Áp dụng phương pháp BMAD vào các dự án trong tương lai.
+- Tiếp tục tham gia các hoạt động của cộng đồng AWS Study Group.
+  ![overview](/images/4-Event/event1.jpg)
+  ![overview](/images/4-Event/Event1.png)

@@ -1,47 +1,52 @@
 ---
-title: "Sharing and Feedback"
+title: 'Sharing and Feedback'
 date: 2024-01-01
 weight: 7
 chapter: false
-pre: " <b> 7. </b> "
+pre: ' <b> 7. </b> '
 ---
-
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
 > Here, you can freely share your personal opinions about your experience participating in the First Cloud Journey program. This will help the FCJ team improve any shortcomings based on the following aspects:
 
 ### Overall Evaluation
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+**1. Working Environment**
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+During my internship, I found the working environment to be professional while still being friendly and welcoming. The members of FCJ were always willing to share their knowledge and support me whenever I had questions. This helped me become more confident in communicating and learning.
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+**2. Support from Mentor / Team Admin**
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+My mentor closely followed my internship progress, clearly explained each stage, and assigned tasks with specific guidance. Whenever I encountered difficulties, my mentor encouraged me to find solutions on my own before providing further support. The team admin also responded quickly to questions about the internship process and schedule, making everything run smoothly.
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+**3. Relevance to My Major**
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+The assigned tasks were closely related to my field of study. The knowledge I learned at university helped me adapt quickly, while the internship also introduced me to many new topics that I had little or no previous experience with. This gave me a better understanding of how to apply academic knowledge in practice.
 
----
+**4. Learning Opportunities & Skill Development**
+
+My internship at FCJ helped me improve not only my technical knowledge but also important soft skills. I learned how to manage my work, communicate effectively with teammates, and solve problems independently. The feedback from my mentor also helped me identify areas for improvement.
+
+**5. Company Culture & Teamwork**
+
+The teamwork was excellent throughout the internship. Everyone was willing to share their experience and support each other to achieve common goals. The positive and professional working atmosphere motivated me and helped me integrate into the team quickly.
+
+**6. Internship Policies / Benefits**
+
+The company created many opportunities for interns to learn and gain practical experience. I was able to participate in internal training sessions and become familiar with a real working environment. These experiences helped me prepare better for my future career.
 
 ### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
 
----
+- **What satisfied you the most during your internship?**
+  What I appreciated most was the dedicated support from my mentor and the FCJ team. Their guidance helped me solve problems more efficiently and improve both my graduation project and professional knowledge.
+
+- **Would you recommend this internship to your friends? Why?**
+  Yes. I would recommend this program to anyone looking for a professional environment where they can gain practical experience, improve their technical skills, and develop teamwork and problem-solving abilities.
 
 ### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+
+- **Would you like to continue this program in the future?**
+  <br>
+  I truly appreciate everything I learned during this internship. However, I plan to focus on my own career path in the future, so I will not continue with the program.
+- **Other comments (optional):**
+  <br>
+  I would like to thank the FCJ team, my mentor, and everyone who supported me throughout the internship. It was a valuable experience that helped me grow both professionally and personally. I hope the program continues to develop and provide opportunities for many more students in the future.

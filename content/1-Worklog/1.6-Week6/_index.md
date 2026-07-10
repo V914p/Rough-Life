@@ -1,57 +1,54 @@
 ---
-title: "Week 6 Worklog"
-date: 2024-01-01
+title: 'Week 6 Worklog'
+date: 2026-05-31
 weight: 1
 chapter: false
-pre: " <b> 1.6. </b> "
+pre: ' <b> 1.6. </b> '
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 6 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Lab4: Deploy applications on EC2 (Linux & Windows)
+
+* Node.js, MySQL
+* IAM Policies
+* Cost Optimization
+* Security & Access Control
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task                                                                                                                                                                                       | Start Date | Completion Date | Status |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ------ |
+| 2   | - Install Node.js on Amazon Linux 2023 using NVM - Install Git and clone application source code - Configure environment variables and deploy the application on a Linux EC2 instance      | 25/5/2026  | 25/5/2025       | Done   |
+| 3   | - Install XAMPP on Windows Server - Create MySQL database and tables using phpMyAdmin - Deploy and test the Node.js application on a Windows instance                                      | 26/5/2026  | 26/6/2026       | Done   |
+| 4   | - Learn IAM region-based access control - Create RegionRestrict policy - Configure IAM groups and users - Test EC2 access in different AWS Regions                                         | 27/5/2026  | 27/5/2026       | Done   |
+| 5   | - Learn EC2 instance family restrictions - Create EC2_FamilyRestrict policy - Configure and test allowed and denied EC2 instance families - Implement instance type restrictions           | 28/5/2026  | 28/5/2026       | Done   |
+| 6   | - Implement EBS volume type restrictions - Configure IP-based EC2 termination permissions - Implement time-based EC2 deletion restrictions - Verify IAM policies through practical testing | 29/6/2026  | 29/6/2026       | Done   |
+| 7   | - Learn how to design UI and create basic UI elements in Unity.                                                                                                                            | 30/6/2026  | 31/6/2026       | Done   |
 
 ### Week 6 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- Successfully installed and configured Node.js on Amazon Linux 2023.
+- Deployed a Node.js web application on both Linux and Windows EC2 instances.
+- Configured a MySQL database and integrated it with the application.
+- Learned how to manage application dependencies using NPM.
+- Gained experience using phpMyAdmin to create databases, tables, and import data.
+- Implemented IAM policies to restrict AWS resource usage based on:
 
-* Successfully created and configured an AWS Free Tier account.
+* AWS Region
+* EC2 Instance Family
+* EC2 Instance Type
+* EBS Volume Type
+* Source IP Address
+* Time Period
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+- Created IAM Groups and IAM Users to test access control policies.
+- Verified policy effectiveness by testing both allowed and denied actions.
+- Improved understanding of AWS security best practices, including:
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Least Privilege Principle
+* Zero Trust Security Model
+* Cost Optimization Strategies
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- Developed practical skills in managing EC2 resources and enforcing governance controls through IAM policies.
+- Enhanced knowledge of cloud infrastructure deployment, administration, and security management within AWS.

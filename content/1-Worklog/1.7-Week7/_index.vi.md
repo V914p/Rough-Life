@@ -1,59 +1,35 @@
 ---
-title: "Worklog Tuần 7"
-date: 2024-01-01
+title: 'Worklog Tuần 7'
+date: 2026-06-07
 weight: 1
 chapter: false
-pre: " <b> 1.7. </b> "
+pre: ' <b> 1.7. </b> '
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+### Mục tiêu Tuần 7:
 
-### Mục tiêu tuần 7:
+- Lab 10: AWS Support.
+- Thiết kế giao diện game (UI), nút Play và các chức năng khác.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Các công việc thực hiện trong tuần:
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Ngày | Công việc                                                                                                                                                                  | Ngày bắt đầu | Ngày hoàn thành | Trạng thái |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ---------- |
+| 2    | - Truy cập AWS Support <br>&emsp; + Các loại yêu cầu hỗ trợ (Support Request Types) <br>&emsp; + Thay đổi gói hỗ trợ (Change Support Plan)                                 | 01/06/2026   | 01/06/2026      | Hoàn thành |
+| 3    | - Quản lý các yêu cầu hỗ trợ (Managing Support Requests) <br>&emsp; + Tạo yêu cầu hỗ trợ (Create Support Request) <br>&emsp; + Chọn mức độ ưu tiên (Select Severity Level) | 02/06/2026   | 02/06/2026      | Hoàn thành |
+| 4    | - Thiết kế giao diện menu và màn hình cài đặt của game. <br> - Xây dựng chức năng cho các nút như Play và Quit. <br> - Thiết kế giao diện nhập tên nhân vật.               | 03/06/2026   | 07/06/2026      | Hoàn thành |
 
+### Kết quả đạt được trong Tuần 7:
 
-### Kết quả đạt được tuần 7:
+### Ngày 2, 3 – Lab 10
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+- **AWS Support Request Types:** Tìm hiểu thời điểm sử dụng các loại yêu cầu hỗ trợ như **Account and Billing Support**, **Service Limit Increase** và **Technical Support**.
+- **Create Support Request:** Thực hành tạo và gửi yêu cầu hỗ trợ thông qua **AWS Support Center**.
+- **Select Severity Level:** Hiểu được ý nghĩa của các mức độ ưu tiên và cách chúng ảnh hưởng đến thời gian phản hồi của AWS.
+- **Change Support Plan:** Tìm hiểu sự khác biệt giữa các gói hỗ trợ **Basic**, **Business Support** và **Enterprise Support**.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+### Ngày 4 – Game
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+- Thiết kế giao diện menu chính của trò chơi và sắp xếp các thành phần UI, bao gồm hình nền và màn hình cài đặt.
+- Liên kết các nút trên menu với các chức năng tương ứng như **Play** (Bắt đầu trò chơi) và **Quit** (Thoát trò chơi).
+- Thêm ô nhập văn bản để người chơi nhập và tùy chỉnh tên nhân vật.
