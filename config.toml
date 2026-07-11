@@ -1,5 +1,5 @@
-baseURL = "/"
-relativeURLs = false
+baseURL = "https://letran237123-a11y.github.io/BaoCaoDoAnGameRoughLife/"
+relativeURLs = true
 canonifyURLs = false
 defaultContentLanguage = "en"
 
