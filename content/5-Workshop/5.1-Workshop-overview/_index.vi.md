@@ -15,6 +15,7 @@ pre: ' <b> 5.1. </b> '
 - Điểm nổi bật của Rough Life là hệ thống boss fight. Người chơi có thể tiến vào các phòng boss như Phoenix, Slime, Centaur và các boss khác để chiến đấu. Mỗi boss có cơ chế riêng, thanh máu riêng, hiệu ứng âm thanh, nhạc nền và phần thưởng sau khi bị đánh bại. Khi boss chết, game có thể sinh ra phần thưởng như vũ khí nâng cấp để người chơi tiếp tục phát triển sức mạnh.
 
 - Về phần online, Rough Life được phát triển theo mô hình co-op tối đa 4 người chơi. Người chơi có thể tạo phòng, tham gia phòng và cùng nhau chiến đấu trong thời gian thực. Hệ thống online sử dụng Unity Netcode để đồng bộ nhân vật, vũ khí, nhặt item, trạng thái chiến đấu và các tương tác trong game. Ngoài ra, game còn có các hệ thống hỗ trợ như UI hiển thị vũ khí đang dùng, bảng mô tả vũ khí khi đi gần item, cơ chế chết/hồi sinh và chuyển cảnh giữa Lobby với phòng boss.
+- Link Google Drive Video: https://drive.google.com/file/d/1JuW5662_Hs_NfhDf037MAqUaIq6pE8v7/view?usp=sharing
 
 #### Tổng quan về dự án game Rough Life
 
