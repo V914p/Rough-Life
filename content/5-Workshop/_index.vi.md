@@ -21,6 +21,8 @@ Các dịch vụ AWS được sử dụng trong phần minh chứng gồm:
 - **Amazon Cognito** để chuẩn bị hệ thống xác thực người chơi.
 - **Amazon DynamoDB** để lưu dữ liệu room/session, player save và match result.
 
+- Demo Project: https://drive.google.com/file/d/1JuW5662_Hs_NfhDf037MAqUaIq6pE8v7/view?usp=sharing
+
 #### Nội dung
 
 1. [Tổng quan Workshop](5.1-workshop-overview/)

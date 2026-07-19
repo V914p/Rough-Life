@@ -21,6 +21,8 @@ The AWS services used in this evidence setup include:
 - **Amazon Cognito** for preparing player authentication.
 - **Amazon DynamoDB** for storing room/session data, player save data, and match result data.
 
+- Demo Project: https://drive.google.com/file/d/1JuW5662_Hs_NfhDf037MAqUaIq6pE8v7/view?usp=sharing
+
 #### Contents
 
 1. [Workshop Overview](5.1-workshop-overview/)
